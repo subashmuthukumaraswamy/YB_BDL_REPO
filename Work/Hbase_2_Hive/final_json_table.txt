@@ -1,7 +1,7 @@
 
 drop table jsondoc_full;
 
-CREATE EXTERNAL TABLE jsondoc_full ( id string, version string , events array< struct < taxYear:string,  actor: struct < t:string, name:string, officeId:string, ptin:string >, practice:boolean, workspaceType:string, channel:string, returnId:string, taxProductType:string, eid:string,  aid:string, ev:string,et:string, cardinality:string, filingStatus:string,  filingAgency:string, entityGuid:string , filingId:string, env:string >>) ROW FORMAT SERDE 'com.cloudera.hive.serde.JSONSerDe' LOCATION '/user/root/subashWork/JsonTester/';
+--CREATE EXTERNAL TABLE jsondoc_full ( id string, version string , events array< struct < taxYear:string,  actor: struct < t:string, name:string, officeId:string, ptin:string >, practice:boolean, workspaceType:string, channel:string, returnId:string, taxProductType:string, eid:string,  aid:string, ev:string,et:string, cardinality:string, filingStatus:string,  filingAgency:string, entityGuid:string , filingId:string, env:string >>) ROW FORMAT SERDE 'com.cloudera.hive.serde.JSONSerDe' LOCATION '/user/root/subashWork/JsonTester/';
 
  select events.actor[0] from jsondoc_full where events.cardinality is not null;
 
