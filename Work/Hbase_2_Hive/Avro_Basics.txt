@@ -1,0 +1,6 @@
+CREATE EXTERNAL TABLE avro_dummy (version string, person struct<name:string,age:string>)  STORED AS AVRO;
+
+INSERT OVERWRITE TABLE avro_dummy SELECT * FROM dummy2;
+
+reference
+https://cwiki.apache.org/confluence/display/Hive/AvroSerDe

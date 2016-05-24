@@ -1,0 +1,36 @@
+use subash;
+
+CREATE EXTERNAL TABLE jsondoc (id string,text string) STORED BY 'org.apache.hadoop.hive.hbase.HBaseStorageHandler' WITH SERDEPROPERTIES ( 'hbase.columns.mapping' = ':key,doc:doc' ) TBLPROPERTIES('hbase.table.name' = 'jsondoc');
+
+
+select count(*) from jsondoc;
+
+select * from jsondoc;
+
+hive -e "select text from subash.jsondoc" >> jsondoc.txt
+
+hadoop fs -put jsondoc.txt /user/root/subashWork/JsonTester/
+
+
+CREATE EXTERNAL TABLE jsondoc_table (id string, version string, events array<struct<taxYear:string,et:string, actor:struct<t:string, name:string>>>)
+ROW FORMAT SERDE 'com.cloudera.hive.serde.JSONSerDe' LOCATION '/user/root/subashWork/JsonTester/';
+
+
+select version, events.actor.officeId from jsondoc_full where events.actor.officeId is not null;
+
+
+ select events.actor[1] from jsondoc_table where version = '8ecb8baad487e65821f07059687028e0efde0d43';
+ 
+ select events.actor[12] from jsondoc_table where version = '8ecb8baad487e65821f07059687028e0efde0d43' and events[4].et = 'com.hrb.esg.ods.domain.tax.event.v2.DemographicsUpdatedEvent';
+
+
+SELECT events_t.taxyear, events_t.et, events_t.actor,  version, events_t.actor.name, events_t.actor.t FROM jsondoc_table
+LATERAL VIEW explode(events) myTable1 AS events_t  
+where version = '8ecb8baad487e65821f07059687028e0efde0d43' and
+events_t.et = 'com.hrb.esg.ods.domain.tax.event.v2.DemographicsUpdatedEvent';
+
+
+SELECT events_t.taxyear, events_t.et, events_t.actor,  version, events_t.actor.name, events_t.actor.t FROM jsondoc_table
+LATERAL VIEW explode(events) myTable1 AS events_t  
+where  events_t.et = 'com.hrb.esg.ods.domain.tax.event.v2.DemographicsUpdatedEvent';
+

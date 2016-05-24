@@ -1,0 +1,65 @@
+return.hold.[x].code
+return.hold.[x].notes
+return.hold.[x].reason
+
+dependent.[x].dob -D
+dependent.[x].firstName -D
+dependent.[x].lastname -D
+dependent.[x].ssn -D
+dependents
+
+return.efile.[x].status
+
+states
+TaxSystemEfileStatuses
+
+
+address.city -D
+address.line1 -D
+address.line2 -D
+address.state -D
+address.zip -D
+return.amended -D
+return.aol.notes -D
+return.aol.status -D
+return.extension -D
+return.fees.paid -D
+return.fees.total -D
+return.filingstatus -D
+return.hold.US.code -D
+return.hold.US.notes -D
+return.hold.US.reason -D
+return.lastEditDate -D
+return.preparer.id -D
+return.preparer.name.first -D
+return.preparer.name.last -D
+return.prepBeginDate -D
+return.product.fedBalancePaymentOption -D
+return.product.fedRefundFeeOption -D
+return.product.pomIncluded -D
+return.product.pomPurchaseStatus -D
+return.product.secondLook -D
+return.product.tisPurchaseStatus -D
+return.taxSystem -D
+return.taxYear -D
+return.uploadStatus -D
+spouse.dob -D
+spouse.name.first -D
+spouse.name.last -D
+spouse.phone.1.number -D
+spouse.phone.1.type -D
+spouse.phone.2.number -D
+spouse.phone.2.type -D
+spouse.phone.3.number -D
+spouse.phone.3.type -D
+spouse.ssn -D
+taxpayer.dob -D
+taxpayer.name.first -D
+taxpayer.name.last -D
+taxpayer.phone.1.number -D
+taxpayer.phone.1.type -D
+taxpayer.phone.2.number -D
+taxpayer.phone.2.type -D
+taxpayer.phone.3.number -D
+taxpayer.phone.3.type -D
+taxpayer.ssn -D

@@ -1,0 +1,37 @@
+CREATE EXTERNAL TABLE hbasealltypessmall (
+  id int,
+  bool_col boolean,
+  tinyint_col tinyint,
+  smallint_col smallint,
+  int_col int,
+  bigint_col bigint,
+  float_col float,
+  double_col double,
+  date_string_col string,
+  string_col string,
+  timestamp_col timestamp)
+STORED BY 'org.apache.hadoop.hive.hbase.HBaseStorageHandler'
+WITH SERDEPROPERTIES (
+  "hbase.columns.mapping" =
+  ":key,bools:bool_col,ints:tinyint_col,ints:smallint_col,ints:int_col,ints:bigint_col,floats\
+   :float_col,floats:double_col,strings:date_string_col,strings:string_col,strings:timestamp_col"
+)
+TBLPROPERTIES("hbase.table.name" = "hbasealltypessmall");
+
+
+
+ CREATE EXTERNAL TABLE tweets (
+   ...
+    retweeted_status STRUCT&lt;
+      text:STRING,
+      user:STRUCT&lt;screen_name:STRING,name:STRING&gt;&gt;,
+    entities STRUCT&lt;
+      urls:ARRAY&lt;STRUCT&lt;expanded_url:STRING&gt;&gt;,
+      user_mentions:ARRAY&lt;STRUCT&lt;screen_name:STRING,name:STRING&gt;&gt;,
+      hashtags:ARRAY&lt;STRUCT&lt;text:STRING&gt;&gt;&gt;,
+    text STRING,
+   ...
+  )
+  PARTITIONED BY (datehour INT)
+  <strong>ROW FORMAT SERDE 'com.cloudera.hive.serde.JSONSerDe'</strong>
+  LOCATION '/user/flume/tweets';

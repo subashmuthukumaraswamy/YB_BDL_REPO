@@ -1,0 +1,28 @@
+
+drop table jsondoc_full;
+
+CREATE EXTERNAL TABLE jsondoc_full ( id string, version string , events array< struct < taxYear:string,  actor: struct < t:string, name:string, officeId:string, ptin:string >, practice:boolean, workspaceType:string, channel:string, returnId:string, taxProductType:string, eid:string,  aid:string, ev:string,et:string, cardinality:string, filingStatus:string,  filingAgency:string, entityGuid:string , filingId:string, env:string >>) ROW FORMAT SERDE 'com.cloudera.hive.serde.JSONSerDe' LOCATION '/user/root/subashWork/JsonTester/';
+
+ select events.actor[0] from jsondoc_full where events.cardinality is not null;
+
+SELECT events_t.taxyear, events_t.et, events_t.actor,  version, events_t.actor.name, events_t.entityGuid, events_t.actor.t FROM jsondoc_full
+LATERAL VIEW explode(events) myTable1 AS events_t  
+where version = '0f220279882c5b3027e226b12f0f2259a2573e8e' and
+events_t.et like '%DemographicsUpdatedEvent%';
+
+SELECT distinct events_t.taxyear, events_t.et, events_t.actor,  version, events_t.actor.name, events_t.entityGuid, events_t.actor.t FROM jsondoc_full
+LATERAL VIEW explode(events) myTable1 AS events_t  
+where events_t.entityGuid is not null;
+
+select version ,  events_t.taxYear, events_t.actor from jsondoc_full LATERAL VIEW explode(events) myTable1 AS events_t 
+where version = '8ecb8baad487e65821f07059687028e0efde0d43' and
+events_t.et like '%DemographicsUpdatedEvent%';
+
+
+select distinct version ,  events_t.taxYear,  events_t.actor.t, events_t.actor.name, events_t.actor.officeId, events_t.actor.ptin, events_t.practice, events_t.workspaceType, events_t.channel, events_t.returnId, events_t.taxProductType, events_t.eid, events_t.aid, events_t.ev, events_t.et, events_t.cardinality, events_t.filingStatus, events_t.filingAgency, events_t.entityGuid , events_t.filingId, events_t.env from jsondoc_full LATERAL VIEW explode(events) myTable1 AS events_t ;
+
+
+Time taken: 10.442 seconds, Fetched: 9 row(s)
+Time taken: 10.585 seconds, Fetched: 1 row(s)
+Time taken: 18.154 seconds, Fetched: 7 row(s)
+
