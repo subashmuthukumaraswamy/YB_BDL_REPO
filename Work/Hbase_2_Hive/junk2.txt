@@ -1,0 +1,42 @@
+CREATE EXTERNAL TABLE jsondoc (id string,text string) STORED BY 'org.apache.hadoop.hive.hbase.HBaseStorageHandler' WITH SERDEPROPERTIES ( 'hbase.columns.mapping' = ':key,doc:doc' ) TBLPROPERTIES('hbase.table.name' = 'jsondoc', );
+
+set hive.input.format=org.apache.hadoop.mapred.TextInputFormat;
+set hive.output.formar =org.apache.hadoop.hive.ql.io.HiveIgnoreKeyTextOutputFormat;
+
+
+CREATE external TABLE hbase_ck_4 (id string, doc array<struct<taxYear:string>>)
+STORED BY 'org.apache.hadoop.hive.hbase.HBaseStorageHandler'
+WITH SERDEPROPERTIES (
+"hbase.table.name" = "jsondoc", 
+"hbase.columns.mapping" = ":key,doc:doc");
+
+ select events.taxyear[0][version]from hbase_ck_4 where id =
+ "43238703-0f4d-4216-bd82-e298f0bba989_u";
+
+ select distinct events_t.version from hbase_ck_4 LATERAL VIEW explode( events.taxyear) myTable1 AS events_t ;
+
+CREATE external TABLE hbase_ck_4(id string, events array<struct<taxYear:string>>)
+STORED BY 'org.apache.hadoop.hive.hbase.HBaseStorageHandler'
+WITH SERDEPROPERTIES (
+"hbase.table.name" = "jsondoc", 
+"hbase.columns.mapping" = ":key,doc:doc",
+"hbase.composite.key.class" = "org.apache.hadoop.hive.hbase.HBaseCompositeKey");
+
+CREATE external TABLE hbase_ck_4(id string, events array<struct<taxYear:string>>)
+STORED BY 'org.apache.hadoop.hive.hbase.HBaseStorageHandler'
+WITH SERDEPROPERTIES (
+"hbase.table.name" = "jsondoc", 
+"hbase.columns.mapping" = ":key,doc:doc",
+"hbase.composite.key.factory" = "org.apache.hadoop.hive.hbase.HBaseCompositeKey");
+
+select distinct events_t.taxYear, events_t.actor.t, events_t.actor.name, events_t.actor.officeId, events_t.actor.ptin, events_t.practice, events_t.workspaceType, events_t.channel, events_t.returnId, events_t.taxProductType, events_t.eid, events_t.aid, events_t.ev, events_t.et, events_t.cardinality, events_t.filingStatus, events_t.filingAgency, events_t.entityGuid , events_t.filingId, events_t.env from hbase_ck_4 LATERAL VIEW explode(events) myTable1 AS events_t ;
+
+select events.actor[1] from hbase_ck_4 ;
+
+
+
+select events.actor from hbase_ck_4 where events.cardinality is not null;
+
+	SELECT 
+	*  FROM hbase_ck_4
+ where id = '43238703-0f4d-4216-bd82-e298f0bba989_u'; 

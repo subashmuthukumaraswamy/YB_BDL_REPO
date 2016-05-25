@@ -16,7 +16,16 @@ create table json_19 as select * from json_may20;
 
 SELECT get_json_object(dummy2.text, '$.version') AS version, get_json_object(dummy2.text, '$.events[0].taxYear') AS tax1, get_json_object(dummy2.text, '$.events[0].actor.t') AS actor FROM dummy2 where id = '031a194d6b43_u' ;
 
+wget https://github.com/subashmuthukumaraswamy/YB_BDL_REPO/blob/master/jar/brickhouse_1.1.jar
+http://central.maven.org/maven2/org/apache/hive/hive-hbase-handler/0.14.0/hive-hbase-handler-0.14.0.jar
+
 -- jars
 add jar /root/hive-serdes-1.0-SNAPSHOT.jar;
 add jar /root/json-serde-1.3-jar-with-dependencies.jar;
 add jar /root/json-udf-1.3.7-jar-with-dependencies.jar;
+add jar /root/brickhouse_1.1.jar;
+add jar /root/hive-hbase-handler-0.14.0.jar;
+add jar /root/hive_serde.jar.zip;
+
+
+ 
