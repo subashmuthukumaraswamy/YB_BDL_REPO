@@ -1,0 +1,37 @@
+kafka queue , java code, partion id, sequencial 
+dynamic, topic name, how many partion an run processing.
+
+
+task 2 :
+document, spark on hive . default is map reduce. but need to point to spark. 
+on lab cluster 
+run from hive query that should run on spark
+
+ 
+
+
+val auctionRDD = sc.textFile("/user/root/subashWork/spark/auctiondata.csv").map(_.split(",")) 
+
+ auctionRDD.count();
+    auctionRDD.distinct()
+	
+	val linesWithSpark = auctionRDD.filter(line => line.contains("jaguarhw"))
+	  
+	 linesWithSpark.collect()
+	 
+	  auctionRDD.cache();
+	  auctionRDD.next(3);
+
+ val inputfile = sc.textFile("/user/root/subashWork/spark/wordCount.txt")
+
+--- word count  by map reduce
+ 
+ val inputfile = sc.textFile("/user/root/subashWork/spark/wordCount.txt") 
+  
+ val counts = inputfile.flatMap(line => line.split(" ")).map(word =>(word, 1)).reduceByKey(_+_); 
+
+ counts.toDebugString 
+
+ counts.cache()
+ 
+ counts.collect() 

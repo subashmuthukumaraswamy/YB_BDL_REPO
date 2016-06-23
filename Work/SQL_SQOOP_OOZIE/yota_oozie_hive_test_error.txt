@@ -1,0 +1,950 @@
+     
+            Log Upload Time: Wed Jun 22 09:01:03 -0400 2016
+          
+            Log Length: 113946
+          
+Oozie Launcher starts
+
+Heart beat
+{"properties":[{"key":"oozie.launcher.job.id","value":"job_1466402626529_0001","isFinal":false,"resource":"programatically"},{"key":"oozie.job.id","value":"0000001-160620020454036-oozie-oozi-W","isFinal":false,"resource":"programatically"},{"key":"oozie.action.id","value":"0000001-160620020454036-oozie-oozi-W@hive2-55aa","isFinal":false,"resource":"programatically"},{"key":"mapreduce.job.tags","value":"oozie-23879caa5b975d0b12fbb7cf4e67749a","isFinal":false,"resource":"programatically"}]}Starting the execution of prepare actions
+Completed the execution of prepare actions successfully
+
+Files in current dir:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/.
+======================
+Dir: tmp
+  Dir: Jetty_0_0_0_0_60680_mapreduce____l7l01x
+File: container_tokens
+File: .container_tokens.crc
+File: launch_container.sh
+File: .launch_container.sh.crc
+File: default_container_executor_session.sh
+File: .default_container_executor_session.sh.crc
+File: default_container_executor.sh
+File: .default_container_executor.sh.crc
+File: slf4j-log4j12-1.7.5.jar
+File: jersey-json-1.9.jar
+File: asm-tree-3.1.jar
+File: hive-shims-0.23.jar
+File: commons-cli-1.2.jar
+File: api-asn1-api-1.0.0-M20.jar
+File: activation-1.1.jar
+File: commons-dbcp-1.4.jar
+File: stax-api-1.0-2.jar
+File: guice-servlet-3.0.jar
+File: log4j-1.2.17.jar
+File: jdo-api-3.0.1.jar
+File: commons-lang-2.4.jar
+File: guava-11.0.2.jar
+File: aopalliance-1.0.jar
+File: eigenbase-properties-1.1.4.jar
+File: libfb303-0.9.2.jar
+File: commons-logging-1.1.jar
+File: hadoop-annotations.jar
+File: guice-3.0.jar
+File: jsr305-3.0.0.jar
+File: jetty-util-6.1.26.cloudera.2.jar
+File: antlr-2.7.7.jar
+File: commons-httpclient-3.1.jar
+File: oozie-hadoop-utils.jar
+File: commons-collections-3.2.2.jar
+File: hadoop-yarn-server-web-proxy.jar
+File: hadoop-yarn-api.jar
+File: hive-shims-common.jar
+File: calcite-linq4j-1.0.0-incubating.jar
+File: geronimo-jaspic_1.0_spec-1.0.jar
+File: super-csv-2.2.0.jar
+File: calcite-avatica-1.0.0-incubating.jar
+File: jetty-6.1.26.cloudera.2.jar
+File: apacheds-i18n-2.0.0-M15.jar
+File: htrace-core4-4.0.1-incubating.jar
+File: jta-1.1.jar
+File: oozie-sharelib-oozie.jar
+File: jasper-compiler-5.5.23.jar
+File: hadoop-common.jar
+File: pentaho-aggdesigner-algorithm-5.1.5-jhyde.jar
+File: antlr-runtime-3.4.jar
+File: hive-exec.jar
+File: geronimo-jta_1.1_spec-1.1.1.jar
+File: json-simple-1.1.jar
+File: asm-commons-3.1.jar
+File: hadoop-yarn-common.jar
+File: hbase-protocol.jar
+File: oozie-sharelib-hive2.jar
+File: jackson-core-asl-1.8.8.jar
+File: snappy-java-1.0.4.1.jar
+File: commons-beanutils-1.7.0.jar
+File: zookeeper.jar
+File: hive-metastore.jar
+File: leveldbjni-all-1.8.jar
+Dir: jobSubmitDir
+  File: job.splitmetainfo
+  File: job.split
+File: httpcore-4.2.5.jar
+File: jpam-1.1.jar
+File: libthrift-0.9.2.jar
+File: commons-pool-1.5.4.jar
+File: httpclient-4.2.5.jar
+File: curator-client-2.6.0.jar
+File: jsp-api-2.0.jar
+File: jackson-xc-1.8.8.jar
+File: jersey-servlet-1.14.jar
+File: oozie-sharelib-hive2-4.1.0-cdh5.7.1.jar
+File: geronimo-annotation_1.0_spec-1.1.1.jar
+File: jackson-mapper-asl-1.8.8.jar
+File: jetty-all-7.6.0.v20120127.jar
+File: gson-2.2.4.jar
+File: htrace-core-3.2.0-incubating.jar
+File: jettison-1.1.jar
+File: oozie-hadoop-utils-2.6.0-cdh5.7.1.oozie-4.1.0-cdh5.7.1.jar
+File: jersey-guice-1.9.jar
+File: curator-recipes-2.7.1.jar
+File: hive-service.jar
+File: api-util-1.0.0-M20.jar
+File: hive-serde.jar
+File: commons-net-3.1.jar
+File: servlet-api-2.5.jar
+File: jets3t-0.6.1.jar
+File: paranamer-2.3.jar
+File: xmlenc-0.52.jar
+File: jersey-core-1.9.jar
+File: curator-framework-2.6.0.jar
+File: oozie-sharelib-oozie-4.1.0-cdh5.7.1.jar
+File: commons-digester-1.8.jar
+File: protobuf-java-2.5.0.jar
+File: commons-compiler-2.7.6.jar
+File: asm-3.2.jar
+File: hadoop-yarn-server-applicationhistoryservice.jar
+File: calcite-core-1.0.0-incubating.jar
+File: stringtemplate-3.2.1.jar
+File: hive-shims-scheduler.jar
+File: hbase-common.jar
+File: job.xml
+File: hadoop-yarn-server-common.jar
+File: hive-beeline.jar
+File: datanucleus-rdbms-3.2.1.jar
+File: jersey-client-1.9.jar
+File: jackson-jaxrs-1.8.8.jar
+File: jline-2.11.jar
+File: jsch-0.1.42.jar
+File: javax.inject-1.jar
+File: netty-3.2.2.Final.jar
+File: hive-jdbc.jar
+File: jasper-runtime-5.5.23.jar
+File: hadoop-yarn-server-resourcemanager.jar
+File: commons-beanutils-core-1.8.0.jar
+File: jersey-server-1.9.jar
+File: findbugs-annotations-1.3.9-1.jar
+File: datanucleus-api-jdo-3.2.1.jar
+File: commons-io-2.4.jar
+File: apache-log4j-extras-1.2.17.jar
+File: hbase-annotations.jar
+File: commons-el-1.0.jar
+File: datanucleus-core-3.2.2.jar
+File: jaxb-api-2.2.2.jar
+File: logredactor-1.0.3.jar
+File: avro.jar
+File: jaxb-impl-2.2.3-1.jar
+File: hadoop-auth.jar
+File: mail-1.4.jar
+File: commons-configuration-1.6.jar
+File: opencsv-2.3.jar
+File: commons-math3-3.1.1.jar
+File: slf4j-api-1.7.5.jar
+File: hive-shims.jar
+File: apacheds-kerberos-codec-2.0.0-M15.jar
+File: Hive_query.sql
+File: janino-2.7.6.jar
+File: jamon-runtime-2.3.1.jar
+File: action.xml
+File: .action.xml.crc
+File: propagation-conf.xml
+
+Oozie Java/Map-Reduce/Pig action launcher-job configuration
+=================================================================
+Workflow job id   : 0000001-160620020454036-oozie-oozi-W
+Workflow action id: 0000001-160620020454036-oozie-oozi-W@hive2-55aa
+
+Classpath         :
+------------------------
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001
+  /etc/hadoop/conf.cloudera.yarn
+  /run/cloudera-scm-agent/process/568-yarn-NODEMANAGER
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/hadoop-annotations.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/hadoop-auth.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/hadoop-aws.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/hadoop-common-tests.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/hadoop-common.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/hadoop-nfs.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/hadoop-nfs-2.6.0-cdh5.7.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/hadoop-common-2.6.0-cdh5.7.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/hadoop-common-2.6.0-cdh5.7.1-tests.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/hadoop-aws-2.6.0-cdh5.7.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/hadoop-auth-2.6.0-cdh5.7.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/hadoop-annotations-2.6.0-cdh5.7.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/parquet-format.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/parquet-format-sources.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/parquet-format-javadoc.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/parquet-tools.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/parquet-thrift.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/parquet-test-hadoop2.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/parquet-scrooge_2.10.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/parquet-scala_2.10.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/parquet-protobuf.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/parquet-pig.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/parquet-pig-bundle.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/parquet-jackson.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/parquet-hadoop.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/parquet-hadoop-bundle.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/parquet-generator.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/parquet-encoding.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/parquet-common.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/parquet-column.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/parquet-cascading.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/parquet-avro.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/hue-plugins-3.9.0-cdh5.7.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/commons-collections-3.2.2.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/commons-digester-1.8.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/commons-configuration-1.6.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/commons-lang-2.6.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/commons-io-2.4.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/curator-client-2.7.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/commons-logging-1.1.3.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/guava-11.0.2.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/commons-httpclient-3.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/httpcore-4.2.5.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/httpclient-4.2.5.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/commons-net-3.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/jasper-compiler-5.5.23.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/jackson-mapper-asl-1.8.8.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/gson-2.2.4.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/commons-compress-1.4.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/jersey-json-1.9.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/jaxb-impl-2.2.3-1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/jackson-xc-1.8.8.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/jackson-core-asl-1.8.8.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/commons-el-1.0.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/jsp-api-2.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/jetty-util-6.1.26.cloudera.4.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/jets3t-0.9.0.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/jaxb-api-2.2.2.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/jackson-jaxrs-1.8.8.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/curator-recipes-2.7.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/commons-cli-1.2.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/curator-framework-2.7.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/apacheds-i18n-2.0.0-M15.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/zookeeper.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/avro.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/stax-api-1.0-2.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/servlet-api-2.5.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/mockito-all-1.8.5.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/log4j-1.2.17.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/jsr305-3.0.0.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/jetty-6.1.26.cloudera.4.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/jersey-server-1.9.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/java-xmlbuilder-0.4.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/htrace-core4-4.0.1-incubating.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/commons-codec-1.4.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/xmlenc-0.52.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/snappy-java-1.0.4.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/protobuf-java-2.5.0.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/netty-3.6.2.Final.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/commons-beanutils-core-1.8.0.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/commons-beanutils-1.7.0.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/aws-java-sdk-s3-1.10.6.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/aws-java-sdk-kms-1.10.6.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/aws-java-sdk-core-1.10.6.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/asm-3.2.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/api-util-1.0.0-M20.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/api-asn1-api-1.0.0-M20.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/apacheds-kerberos-codec-2.0.0-M15.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/activation-1.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/slf4j-log4j12.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/xz-1.0.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/slf4j-api-1.7.5.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/paranamer-2.3.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/logredactor-1.0.3.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/junit-4.11.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/jsch-0.1.42.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/jettison-1.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/jersey-core-1.9.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/jasper-runtime-5.5.23.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/hamcrest-core-1.3.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/commons-math3-3.1.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-hdfs/hadoop-hdfs-nfs.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-hdfs/hadoop-hdfs-tests.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-hdfs/hadoop-hdfs.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-hdfs/hadoop-hdfs-nfs-2.6.0-cdh5.7.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-hdfs/hadoop-hdfs-2.6.0-cdh5.7.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-hdfs/hadoop-hdfs-2.6.0-cdh5.7.1-tests.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-hdfs/lib/xmlenc-0.52.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-hdfs/lib/xml-apis-1.3.04.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-hdfs/lib/xercesImpl-2.9.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-hdfs/lib/servlet-api-2.5.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-hdfs/lib/protobuf-java-2.5.0.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-hdfs/lib/netty-3.6.2.Final.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-hdfs/lib/log4j-1.2.17.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-hdfs/lib/leveldbjni-all-1.8.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-hdfs/lib/jsr305-3.0.0.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-hdfs/lib/jsp-api-2.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-hdfs/lib/jetty-util-6.1.26.cloudera.4.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-hdfs/lib/jetty-6.1.26.cloudera.4.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-hdfs/lib/jersey-server-1.9.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-hdfs/lib/jersey-core-1.9.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-hdfs/lib/jasper-runtime-5.5.23.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-hdfs/lib/jackson-mapper-asl-1.8.8.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-hdfs/lib/jackson-core-asl-1.8.8.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-hdfs/lib/htrace-core4-4.0.1-incubating.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-hdfs/lib/guava-11.0.2.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-hdfs/lib/commons-logging-1.1.3.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-hdfs/lib/commons-lang-2.6.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-hdfs/lib/commons-io-2.4.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-hdfs/lib/commons-el-1.0.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-hdfs/lib/commons-daemon-1.0.13.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-hdfs/lib/commons-codec-1.4.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-hdfs/lib/commons-cli-1.2.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-hdfs/lib/asm-3.2.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/hadoop-yarn-api.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/hadoop-yarn-applications-distributedshell.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/hadoop-yarn-applications-unmanaged-am-launcher.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/hadoop-yarn-client.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/hadoop-yarn-common.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/hadoop-yarn-registry.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/hadoop-yarn-server-applicationhistoryservice.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/hadoop-yarn-server-common.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/hadoop-yarn-server-nodemanager.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/hadoop-yarn-server-resourcemanager.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/hadoop-yarn-server-tests.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/hadoop-yarn-server-web-proxy.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/hadoop-yarn-server-web-proxy-2.6.0-cdh5.7.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/hadoop-yarn-server-tests-2.6.0-cdh5.7.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/hadoop-yarn-server-resourcemanager-2.6.0-cdh5.7.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/hadoop-yarn-server-nodemanager-2.6.0-cdh5.7.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/hadoop-yarn-server-common-2.6.0-cdh5.7.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/hadoop-yarn-server-applicationhistoryservice-2.6.0-cdh5.7.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/hadoop-yarn-registry-2.6.0-cdh5.7.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/hadoop-yarn-common-2.6.0-cdh5.7.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/hadoop-yarn-client-2.6.0-cdh5.7.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/hadoop-yarn-applications-unmanaged-am-launcher-2.6.0-cdh5.7.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/hadoop-yarn-applications-distributedshell-2.6.0-cdh5.7.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/hadoop-yarn-api-2.6.0-cdh5.7.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/spark-yarn-shuffle.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/xz-1.0.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/servlet-api-2.5.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/protobuf-java-2.5.0.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/log4j-1.2.17.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/leveldbjni-all-1.8.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/jsr305-3.0.0.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/jline-2.11.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/jetty-util-6.1.26.cloudera.4.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/jetty-6.1.26.cloudera.4.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/jettison-1.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/jersey-server-1.9.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/jersey-json-1.9.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/jersey-guice-1.9.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/jersey-core-1.9.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/jersey-client-1.9.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/jaxb-impl-2.2.3-1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/jaxb-api-2.2.2.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/javax.inject-1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/jackson-xc-1.8.8.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/jackson-mapper-asl-1.8.8.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/jackson-jaxrs-1.8.8.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/jackson-core-asl-1.8.8.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/guice-servlet-3.0.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/guice-3.0.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/guava-11.0.2.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/commons-logging-1.1.3.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/commons-lang-2.6.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/commons-io-2.4.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/commons-httpclient-3.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/commons-compress-1.4.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/commons-collections-3.2.2.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/commons-codec-1.4.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/commons-cli-1.2.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/asm-3.2.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/aopalliance-1.0.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/activation-1.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/zookeeper.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/spark-1.6.0-cdh5.7.1-yarn-shuffle.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/stax-api-1.0-2.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/activation-1.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/apacheds-i18n-2.0.0-M15.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/apacheds-kerberos-codec-2.0.0-M15.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/api-asn1-api-1.0.0-M20.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/api-util-1.0.0-M20.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/asm-3.2.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/avro.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/commons-beanutils-1.7.0.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/commons-beanutils-core-1.8.0.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/commons-cli-1.2.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/commons-codec-1.4.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/commons-collections-3.2.2.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/commons-compress-1.4.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/commons-configuration-1.6.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/commons-digester-1.8.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/commons-el-1.0.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/commons-httpclient-3.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/commons-io-2.4.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/commons-lang-2.6.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/commons-logging-1.1.3.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/commons-math3-3.1.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/commons-net-3.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/curator-client-2.7.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/curator-framework-2.7.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/curator-recipes-2.7.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/gson-2.2.4.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/guava-11.0.2.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-ant-2.6.0-cdh5.7.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-ant.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-archive-logs-2.6.0-cdh5.7.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-archive-logs.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-archives-2.6.0-cdh5.7.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-archives.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-auth-2.6.0-cdh5.7.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-auth.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-azure-2.6.0-cdh5.7.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-azure.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-datajoin-2.6.0-cdh5.7.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-datajoin.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-distcp-2.6.0-cdh5.7.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-distcp.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-extras-2.6.0-cdh5.7.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-extras.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-gridmix-2.6.0-cdh5.7.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-gridmix.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-mapreduce-client-app-2.6.0-cdh5.7.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-mapreduce-client-app.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-mapreduce-client-common-2.6.0-cdh5.7.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-mapreduce-client-common.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-mapreduce-client-core-2.6.0-cdh5.7.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-mapreduce-client-core.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-mapreduce-client-hs-2.6.0-cdh5.7.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-mapreduce-client-hs-plugins-2.6.0-cdh5.7.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-mapreduce-client-hs-plugins.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-mapreduce-client-hs.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-mapreduce-client-jobclient-2.6.0-cdh5.7.1-tests.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-mapreduce-client-jobclient-2.6.0-cdh5.7.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-mapreduce-client-jobclient-tests.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-mapreduce-client-jobclient.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-mapreduce-client-nativetask-2.6.0-cdh5.7.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-mapreduce-client-nativetask.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-mapreduce-client-shuffle-2.6.0-cdh5.7.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-mapreduce-client-shuffle.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-mapreduce-examples-2.6.0-cdh5.7.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-openstack-2.6.0-cdh5.7.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-openstack.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-rumen-2.6.0-cdh5.7.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-rumen.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-sls-2.6.0-cdh5.7.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-sls.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-streaming-2.6.0-cdh5.7.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-streaming.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hamcrest-core-1.3.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/htrace-core4-4.0.1-incubating.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/httpclient-4.2.5.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/httpcore-4.2.5.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/jackson-annotations-2.2.3.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/jackson-core-2.2.3.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/jackson-core-asl-1.8.8.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/jackson-databind-2.2.3.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/jackson-jaxrs-1.8.8.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/jackson-mapper-asl-1.8.8.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/jackson-xc-1.8.8.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/jasper-compiler-5.5.23.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/jasper-runtime-5.5.23.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/java-xmlbuilder-0.4.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/jaxb-api-2.2.2.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/jaxb-impl-2.2.3-1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/jersey-core-1.9.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/jersey-json-1.9.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/jersey-server-1.9.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/jets3t-0.9.0.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/jettison-1.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/jetty-6.1.26.cloudera.4.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/xz-1.0.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/xmlenc-0.52.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/stax-api-1.0-2.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/snappy-java-1.0.4.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/servlet-api-2.5.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/protobuf-java-2.5.0.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/paranamer-2.3.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/mockito-all-1.8.5.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/microsoft-windowsazure-storage-sdk-0.6.0.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/metrics-core-3.0.2.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/log4j-1.2.17.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/junit-4.11.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/jsr305-3.0.0.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/jsp-api-2.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/jsch-0.1.42.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/jetty-util-6.1.26.cloudera.4.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/zookeeper.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/lib/xz-1.0.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/lib/snappy-java-1.0.4.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/lib/protobuf-java-2.5.0.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/lib/paranamer-2.3.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/lib/netty-3.6.2.Final.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/lib/log4j-1.2.17.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/lib/leveldbjni-all-1.8.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/lib/junit-4.11.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/lib/jersey-server-1.9.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/lib/jersey-guice-1.9.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/lib/jersey-core-1.9.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/lib/javax.inject-1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/lib/jackson-mapper-asl-1.8.8.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/lib/jackson-core-asl-1.8.8.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/lib/hamcrest-core-1.3.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/lib/guice-servlet-3.0.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/lib/guice-3.0.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/lib/commons-io-2.4.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/lib/commons-compress-1.4.1.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/lib/asm-3.2.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/lib/aopalliance-1.0.jar
+  /opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/lib/avro.jar
+  job.jar/job.jar
+  job.jar/classes/
+  job.jar/lib/*
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/slf4j-log4j12-1.7.5.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/jersey-json-1.9.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/asm-tree-3.1.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/hive-shims-0.23.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/commons-cli-1.2.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/api-asn1-api-1.0.0-M20.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/activation-1.1.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/commons-dbcp-1.4.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/stax-api-1.0-2.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/guice-servlet-3.0.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/log4j-1.2.17.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/jdo-api-3.0.1.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/commons-lang-2.4.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/guava-11.0.2.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/aopalliance-1.0.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/eigenbase-properties-1.1.4.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/libfb303-0.9.2.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/commons-logging-1.1.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/hadoop-annotations.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/guice-3.0.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/jsr305-3.0.0.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/jetty-util-6.1.26.cloudera.2.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/antlr-2.7.7.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/commons-httpclient-3.1.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/oozie-hadoop-utils.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/commons-collections-3.2.2.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/hadoop-yarn-server-web-proxy.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/hadoop-yarn-api.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/hive-shims-common.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/calcite-linq4j-1.0.0-incubating.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/geronimo-jaspic_1.0_spec-1.0.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/super-csv-2.2.0.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/calcite-avatica-1.0.0-incubating.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/jetty-6.1.26.cloudera.2.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/apacheds-i18n-2.0.0-M15.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/htrace-core4-4.0.1-incubating.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/jta-1.1.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/oozie-sharelib-oozie.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/jasper-compiler-5.5.23.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/hadoop-common.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/pentaho-aggdesigner-algorithm-5.1.5-jhyde.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/antlr-runtime-3.4.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/hive-exec.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/geronimo-jta_1.1_spec-1.1.1.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/json-simple-1.1.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/asm-commons-3.1.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/hadoop-yarn-common.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/hbase-protocol.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/oozie-sharelib-hive2.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/jackson-core-asl-1.8.8.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/snappy-java-1.0.4.1.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/commons-beanutils-1.7.0.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/zookeeper.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/hive-metastore.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/leveldbjni-all-1.8.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/httpcore-4.2.5.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/jpam-1.1.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/libthrift-0.9.2.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/commons-pool-1.5.4.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/httpclient-4.2.5.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/curator-client-2.6.0.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/jsp-api-2.0.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/jackson-xc-1.8.8.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/jersey-servlet-1.14.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/oozie-sharelib-hive2-4.1.0-cdh5.7.1.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/geronimo-annotation_1.0_spec-1.1.1.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/jackson-mapper-asl-1.8.8.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/jetty-all-7.6.0.v20120127.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/gson-2.2.4.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/htrace-core-3.2.0-incubating.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/jettison-1.1.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/oozie-hadoop-utils-2.6.0-cdh5.7.1.oozie-4.1.0-cdh5.7.1.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/jersey-guice-1.9.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/curator-recipes-2.7.1.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/hive-service.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/api-util-1.0.0-M20.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/hive-serde.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/commons-net-3.1.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/servlet-api-2.5.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/jets3t-0.6.1.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/paranamer-2.3.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/xmlenc-0.52.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/jersey-core-1.9.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/curator-framework-2.6.0.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/oozie-sharelib-oozie-4.1.0-cdh5.7.1.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/commons-digester-1.8.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/protobuf-java-2.5.0.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/commons-compiler-2.7.6.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/asm-3.2.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/hadoop-yarn-server-applicationhistoryservice.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/calcite-core-1.0.0-incubating.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/stringtemplate-3.2.1.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/hive-shims-scheduler.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/hbase-common.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/hadoop-yarn-server-common.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/hive-beeline.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/datanucleus-rdbms-3.2.1.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/jersey-client-1.9.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/jackson-jaxrs-1.8.8.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/jline-2.11.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/jsch-0.1.42.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/javax.inject-1.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/netty-3.2.2.Final.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/hive-jdbc.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/jasper-runtime-5.5.23.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/hadoop-yarn-server-resourcemanager.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/commons-beanutils-core-1.8.0.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/jersey-server-1.9.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/findbugs-annotations-1.3.9-1.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/datanucleus-api-jdo-3.2.1.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/commons-io-2.4.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/apache-log4j-extras-1.2.17.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/hbase-annotations.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/commons-el-1.0.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/datanucleus-core-3.2.2.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/jaxb-api-2.2.2.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/logredactor-1.0.3.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/avro.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/jaxb-impl-2.2.3-1.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/hadoop-auth.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/mail-1.4.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/commons-configuration-1.6.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/opencsv-2.3.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/commons-math3-3.1.1.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/slf4j-api-1.7.5.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/hive-shims.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/apacheds-kerberos-codec-2.0.0-M15.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/janino-2.7.6.jar
+  /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/jamon-runtime-2.3.1.jar
+------------------------
+
+Main class        : org.apache.oozie.action.hadoop.Hive2Main
+
+Maximum output    : 2048
+
+Arguments         :
+
+Java System Properties:
+------------------------
+#
+#Wed Jun 22 09:00:53 EDT 2016
+java.runtime.name=Java(TM) SE Runtime Environment
+sun.boot.library.path=/usr/java/jdk1.7.0_67-cloudera/jre/lib/amd64
+java.vm.version=24.65-b04
+oozie.action.externalChildIDs=/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/externalChildIDs
+hadoop.root.logger=INFO,CLA
+java.vm.vendor=Oracle Corporation
+java.vendor.url=http\://java.oracle.com/
+path.separator=\:
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+file.encoding.pkg=sun.io
+oozie.job.launch.time=1466600442579
+user.country=US
+sun.java.launcher=SUN_STANDARD
+sun.os.patch.level=unknown
+java.vm.specification.name=Java Virtual Machine Specification
+user.dir=/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001
+oozie.action.newId=/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/newId
+java.runtime.version=1.7.0_67-b01
+java.awt.graphicsenv=sun.awt.X11GraphicsEnvironment
+java.endorsed.dirs=/usr/java/jdk1.7.0_67-cloudera/jre/lib/endorsed
+os.arch=amd64
+oozie.job.id=0000001-160620020454036-oozie-oozi-W
+oozie.action.id=0000001-160620020454036-oozie-oozi-W@hive2-55aa
+yarn.app.container.log.dir=/data/yarn/container-logs/application_1466402626529_0001/container_1466402626529_0001_01_000001
+java.io.tmpdir=./tmp
+line.separator=\n
+oozie.action.output.properties=/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/output.properties
+java.vm.specification.vendor=Oracle Corporation
+os.name=Linux
+log4j.configuration=container-log4j.properties
+sun.jnu.encoding=UTF-8
+java.library.path=/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001\:/lib/native\:\:/usr/java/packages/lib/amd64\:/usr/lib64\:/lib64\:/lib\:/usr/lib
+oozie.action.conf.xml=/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/action.xml
+java.specification.name=Java Platform API Specification
+java.class.version=51.0
+java.net.preferIPv4Stack=true
+sun.management.compiler=HotSpot 64-Bit Tiered Compilers
+os.version=3.10.0-229.el7.x86_64
+oozie.action.error.properties=/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/error.properties
+yarn.app.container.log.filesize=0
+user.home=/var/lib/hadoop-yarn
+user.timezone=America/New_York
+java.awt.printerjob=sun.print.PSPrinterJob
+file.encoding=UTF-8
+java.specification.version=1.7
+java.class.path=/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001\:/etc/hadoop/conf.cloudera.yarn\:/run/cloudera-scm-agent/process/568-yarn-NODEMANAGER\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/hadoop-annotations.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/hadoop-auth.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/hadoop-aws.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/hadoop-common-tests.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/hadoop-common.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/hadoop-nfs.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/hadoop-nfs-2.6.0-cdh5.7.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/hadoop-common-2.6.0-cdh5.7.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/hadoop-common-2.6.0-cdh5.7.1-tests.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/hadoop-aws-2.6.0-cdh5.7.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/hadoop-auth-2.6.0-cdh5.7.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/hadoop-annotations-2.6.0-cdh5.7.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/parquet-format.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/parquet-format-sources.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/parquet-format-javadoc.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/parquet-tools.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/parquet-thrift.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/parquet-test-hadoop2.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/parquet-scrooge_2.10.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/parquet-scala_2.10.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/parquet-protobuf.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/parquet-pig.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/parquet-pig-bundle.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/parquet-jackson.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/parquet-hadoop.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/parquet-hadoop-bundle.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/parquet-generator.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/parquet-encoding.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/parquet-common.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/parquet-column.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/parquet-cascading.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/parquet-avro.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/hue-plugins-3.9.0-cdh5.7.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/commons-collections-3.2.2.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/commons-digester-1.8.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/commons-configuration-1.6.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/commons-lang-2.6.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/commons-io-2.4.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/curator-client-2.7.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/commons-logging-1.1.3.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/guava-11.0.2.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/commons-httpclient-3.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/httpcore-4.2.5.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/httpclient-4.2.5.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/commons-net-3.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/jasper-compiler-5.5.23.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/jackson-mapper-asl-1.8.8.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/gson-2.2.4.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/commons-compress-1.4.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/jersey-json-1.9.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/jaxb-impl-2.2.3-1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/jackson-xc-1.8.8.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/jackson-core-asl-1.8.8.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/commons-el-1.0.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/jsp-api-2.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/jetty-util-6.1.26.cloudera.4.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/jets3t-0.9.0.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/jaxb-api-2.2.2.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/jackson-jaxrs-1.8.8.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/curator-recipes-2.7.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/commons-cli-1.2.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/curator-framework-2.7.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/apacheds-i18n-2.0.0-M15.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/zookeeper.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/avro.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/stax-api-1.0-2.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/servlet-api-2.5.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/mockito-all-1.8.5.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/log4j-1.2.17.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/jsr305-3.0.0.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/jetty-6.1.26.cloudera.4.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/jersey-server-1.9.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/java-xmlbuilder-0.4.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/htrace-core4-4.0.1-incubating.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/commons-codec-1.4.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/xmlenc-0.52.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/snappy-java-1.0.4.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/protobuf-java-2.5.0.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/netty-3.6.2.Final.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/commons-beanutils-core-1.8.0.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/commons-beanutils-1.7.0.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/aws-java-sdk-s3-1.10.6.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/aws-java-sdk-kms-1.10.6.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/aws-java-sdk-core-1.10.6.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/asm-3.2.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/api-util-1.0.0-M20.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/api-asn1-api-1.0.0-M20.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/apacheds-kerberos-codec-2.0.0-M15.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/activation-1.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/slf4j-log4j12.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/xz-1.0.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/slf4j-api-1.7.5.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/paranamer-2.3.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/logredactor-1.0.3.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/junit-4.11.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/jsch-0.1.42.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/jettison-1.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/jersey-core-1.9.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/jasper-runtime-5.5.23.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/hamcrest-core-1.3.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop/lib/commons-math3-3.1.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-hdfs/hadoop-hdfs-nfs.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-hdfs/hadoop-hdfs-tests.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-hdfs/hadoop-hdfs.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-hdfs/hadoop-hdfs-nfs-2.6.0-cdh5.7.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-hdfs/hadoop-hdfs-2.6.0-cdh5.7.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-hdfs/hadoop-hdfs-2.6.0-cdh5.7.1-tests.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-hdfs/lib/xmlenc-0.52.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-hdfs/lib/xml-apis-1.3.04.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-hdfs/lib/xercesImpl-2.9.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-hdfs/lib/servlet-api-2.5.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-hdfs/lib/protobuf-java-2.5.0.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-hdfs/lib/netty-3.6.2.Final.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-hdfs/lib/log4j-1.2.17.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-hdfs/lib/leveldbjni-all-1.8.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-hdfs/lib/jsr305-3.0.0.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-hdfs/lib/jsp-api-2.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-hdfs/lib/jetty-util-6.1.26.cloudera.4.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-hdfs/lib/jetty-6.1.26.cloudera.4.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-hdfs/lib/jersey-server-1.9.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-hdfs/lib/jersey-core-1.9.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-hdfs/lib/jasper-runtime-5.5.23.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-hdfs/lib/jackson-mapper-asl-1.8.8.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-hdfs/lib/jackson-core-asl-1.8.8.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-hdfs/lib/htrace-core4-4.0.1-incubating.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-hdfs/lib/guava-11.0.2.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-hdfs/lib/commons-logging-1.1.3.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-hdfs/lib/commons-lang-2.6.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-hdfs/lib/commons-io-2.4.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-hdfs/lib/commons-el-1.0.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-hdfs/lib/commons-daemon-1.0.13.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-hdfs/lib/commons-codec-1.4.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-hdfs/lib/commons-cli-1.2.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-hdfs/lib/asm-3.2.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/hadoop-yarn-api.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/hadoop-yarn-applications-distributedshell.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/hadoop-yarn-applications-unmanaged-am-launcher.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/hadoop-yarn-client.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/hadoop-yarn-common.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/hadoop-yarn-registry.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/hadoop-yarn-server-applicationhistoryservice.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/hadoop-yarn-server-common.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/hadoop-yarn-server-nodemanager.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/hadoop-yarn-server-resourcemanager.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/hadoop-yarn-server-tests.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/hadoop-yarn-server-web-proxy.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/hadoop-yarn-server-web-proxy-2.6.0-cdh5.7.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/hadoop-yarn-server-tests-2.6.0-cdh5.7.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/hadoop-yarn-server-resourcemanager-2.6.0-cdh5.7.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/hadoop-yarn-server-nodemanager-2.6.0-cdh5.7.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/hadoop-yarn-server-common-2.6.0-cdh5.7.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/hadoop-yarn-server-applicationhistoryservice-2.6.0-cdh5.7.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/hadoop-yarn-registry-2.6.0-cdh5.7.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/hadoop-yarn-common-2.6.0-cdh5.7.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/hadoop-yarn-client-2.6.0-cdh5.7.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/hadoop-yarn-applications-unmanaged-am-launcher-2.6.0-cdh5.7.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/hadoop-yarn-applications-distributedshell-2.6.0-cdh5.7.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/hadoop-yarn-api-2.6.0-cdh5.7.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/spark-yarn-shuffle.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/xz-1.0.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/servlet-api-2.5.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/protobuf-java-2.5.0.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/log4j-1.2.17.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/leveldbjni-all-1.8.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/jsr305-3.0.0.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/jline-2.11.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/jetty-util-6.1.26.cloudera.4.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/jetty-6.1.26.cloudera.4.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/jettison-1.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/jersey-server-1.9.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/jersey-json-1.9.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/jersey-guice-1.9.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/jersey-core-1.9.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/jersey-client-1.9.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/jaxb-impl-2.2.3-1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/jaxb-api-2.2.2.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/javax.inject-1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/jackson-xc-1.8.8.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/jackson-mapper-asl-1.8.8.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/jackson-jaxrs-1.8.8.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/jackson-core-asl-1.8.8.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/guice-servlet-3.0.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/guice-3.0.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/guava-11.0.2.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/commons-logging-1.1.3.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/commons-lang-2.6.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/commons-io-2.4.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/commons-httpclient-3.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/commons-compress-1.4.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/commons-collections-3.2.2.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/commons-codec-1.4.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/commons-cli-1.2.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/asm-3.2.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/aopalliance-1.0.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/activation-1.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/zookeeper.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/spark-1.6.0-cdh5.7.1-yarn-shuffle.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-yarn/lib/stax-api-1.0-2.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/activation-1.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/apacheds-i18n-2.0.0-M15.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/apacheds-kerberos-codec-2.0.0-M15.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/api-asn1-api-1.0.0-M20.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/api-util-1.0.0-M20.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/asm-3.2.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/avro.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/commons-beanutils-1.7.0.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/commons-beanutils-core-1.8.0.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/commons-cli-1.2.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/commons-codec-1.4.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/commons-collections-3.2.2.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/commons-compress-1.4.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/commons-configuration-1.6.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/commons-digester-1.8.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/commons-el-1.0.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/commons-httpclient-3.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/commons-io-2.4.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/commons-lang-2.6.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/commons-logging-1.1.3.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/commons-math3-3.1.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/commons-net-3.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/curator-client-2.7.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/curator-framework-2.7.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/curator-recipes-2.7.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/gson-2.2.4.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/guava-11.0.2.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-ant-2.6.0-cdh5.7.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-ant.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-archive-logs-2.6.0-cdh5.7.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-archive-logs.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-archives-2.6.0-cdh5.7.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-archives.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-auth-2.6.0-cdh5.7.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-auth.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-azure-2.6.0-cdh5.7.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-azure.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-datajoin-2.6.0-cdh5.7.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-datajoin.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-distcp-2.6.0-cdh5.7.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-distcp.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-extras-2.6.0-cdh5.7.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-extras.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-gridmix-2.6.0-cdh5.7.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-gridmix.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-mapreduce-client-app-2.6.0-cdh5.7.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-mapreduce-client-app.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-mapreduce-client-common-2.6.0-cdh5.7.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-mapreduce-client-common.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-mapreduce-client-core-2.6.0-cdh5.7.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-mapreduce-client-core.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-mapreduce-client-hs-2.6.0-cdh5.7.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-mapreduce-client-hs-plugins-2.6.0-cdh5.7.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-mapreduce-client-hs-plugins.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-mapreduce-client-hs.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-mapreduce-client-jobclient-2.6.0-cdh5.7.1-tests.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-mapreduce-client-jobclient-2.6.0-cdh5.7.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-mapreduce-client-jobclient-tests.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-mapreduce-client-jobclient.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-mapreduce-client-nativetask-2.6.0-cdh5.7.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-mapreduce-client-nativetask.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-mapreduce-client-shuffle-2.6.0-cdh5.7.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-mapreduce-client-shuffle.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-mapreduce-examples-2.6.0-cdh5.7.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-mapreduce-examples.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-openstack-2.6.0-cdh5.7.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-openstack.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-rumen-2.6.0-cdh5.7.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-rumen.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-sls-2.6.0-cdh5.7.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-sls.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-streaming-2.6.0-cdh5.7.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hadoop-streaming.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/hamcrest-core-1.3.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/htrace-core4-4.0.1-incubating.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/httpclient-4.2.5.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/httpcore-4.2.5.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/jackson-annotations-2.2.3.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/jackson-core-2.2.3.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/jackson-core-asl-1.8.8.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/jackson-databind-2.2.3.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/jackson-jaxrs-1.8.8.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/jackson-mapper-asl-1.8.8.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/jackson-xc-1.8.8.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/jasper-compiler-5.5.23.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/jasper-runtime-5.5.23.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/java-xmlbuilder-0.4.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/jaxb-api-2.2.2.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/jaxb-impl-2.2.3-1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/jersey-core-1.9.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/jersey-json-1.9.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/jersey-server-1.9.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/jets3t-0.9.0.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/jettison-1.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/jetty-6.1.26.cloudera.4.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/xz-1.0.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/xmlenc-0.52.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/stax-api-1.0-2.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/snappy-java-1.0.4.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/servlet-api-2.5.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/protobuf-java-2.5.0.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/paranamer-2.3.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/mockito-all-1.8.5.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/microsoft-windowsazure-storage-sdk-0.6.0.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/metrics-core-3.0.2.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/log4j-1.2.17.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/junit-4.11.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/jsr305-3.0.0.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/jsp-api-2.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/jsch-0.1.42.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/jetty-util-6.1.26.cloudera.4.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/zookeeper.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/lib/xz-1.0.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/lib/snappy-java-1.0.4.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/lib/protobuf-java-2.5.0.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/lib/paranamer-2.3.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/lib/netty-3.6.2.Final.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/lib/log4j-1.2.17.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/lib/leveldbjni-all-1.8.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/lib/junit-4.11.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/lib/jersey-server-1.9.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/lib/jersey-guice-1.9.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/lib/jersey-core-1.9.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/lib/javax.inject-1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/lib/jackson-mapper-asl-1.8.8.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/lib/jackson-core-asl-1.8.8.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/lib/hamcrest-core-1.3.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/lib/guice-servlet-3.0.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/lib/guice-3.0.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/lib/commons-io-2.4.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/lib/commons-compress-1.4.1.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/lib/asm-3.2.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/lib/aopalliance-1.0.jar\:/opt/cloudera/parcels/CDH-5.7.1-1.cdh5.7.1.p0.11/lib/hadoop-mapreduce/lib/avro.jar\:\:job.jar/job.jar\:job.jar/classes/\:job.jar/lib/*\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/slf4j-log4j12-1.7.5.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/jersey-json-1.9.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/asm-tree-3.1.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/hive-shims-0.23.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/commons-cli-1.2.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/api-asn1-api-1.0.0-M20.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/activation-1.1.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/commons-dbcp-1.4.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/stax-api-1.0-2.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/guice-servlet-3.0.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/log4j-1.2.17.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/jdo-api-3.0.1.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/commons-lang-2.4.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/guava-11.0.2.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/aopalliance-1.0.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/eigenbase-properties-1.1.4.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/libfb303-0.9.2.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/commons-logging-1.1.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/hadoop-annotations.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/guice-3.0.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/jsr305-3.0.0.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/jetty-util-6.1.26.cloudera.2.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/antlr-2.7.7.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/commons-httpclient-3.1.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/oozie-hadoop-utils.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/commons-collections-3.2.2.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/hadoop-yarn-server-web-proxy.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/hadoop-yarn-api.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/hive-shims-common.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/calcite-linq4j-1.0.0-incubating.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/geronimo-jaspic_1.0_spec-1.0.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/super-csv-2.2.0.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/calcite-avatica-1.0.0-incubating.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/jetty-6.1.26.cloudera.2.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/apacheds-i18n-2.0.0-M15.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/htrace-core4-4.0.1-incubating.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/jta-1.1.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/oozie-sharelib-oozie.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/jasper-compiler-5.5.23.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/hadoop-common.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/pentaho-aggdesigner-algorithm-5.1.5-jhyde.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/antlr-runtime-3.4.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/hive-exec.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/geronimo-jta_1.1_spec-1.1.1.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/json-simple-1.1.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/asm-commons-3.1.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/hadoop-yarn-common.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/hbase-protocol.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/oozie-sharelib-hive2.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/jackson-core-asl-1.8.8.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/snappy-java-1.0.4.1.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/commons-beanutils-1.7.0.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/zookeeper.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/hive-metastore.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/leveldbjni-all-1.8.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/httpcore-4.2.5.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/jpam-1.1.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/libthrift-0.9.2.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/commons-pool-1.5.4.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/httpclient-4.2.5.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/curator-client-2.6.0.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/jsp-api-2.0.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/jackson-xc-1.8.8.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/jersey-servlet-1.14.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/oozie-sharelib-hive2-4.1.0-cdh5.7.1.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/geronimo-annotation_1.0_spec-1.1.1.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/jackson-mapper-asl-1.8.8.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/jetty-all-7.6.0.v20120127.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/gson-2.2.4.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/htrace-core-3.2.0-incubating.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/jettison-1.1.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/oozie-hadoop-utils-2.6.0-cdh5.7.1.oozie-4.1.0-cdh5.7.1.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/jersey-guice-1.9.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/curator-recipes-2.7.1.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/hive-service.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/api-util-1.0.0-M20.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/hive-serde.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/commons-net-3.1.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/servlet-api-2.5.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/jets3t-0.6.1.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/paranamer-2.3.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/xmlenc-0.52.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/jersey-core-1.9.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/curator-framework-2.6.0.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/oozie-sharelib-oozie-4.1.0-cdh5.7.1.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/commons-digester-1.8.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/protobuf-java-2.5.0.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/commons-compiler-2.7.6.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/asm-3.2.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/hadoop-yarn-server-applicationhistoryservice.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/calcite-core-1.0.0-incubating.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/stringtemplate-3.2.1.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/hive-shims-scheduler.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/hbase-common.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/hadoop-yarn-server-common.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/hive-beeline.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/datanucleus-rdbms-3.2.1.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/jersey-client-1.9.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/jackson-jaxrs-1.8.8.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/jline-2.11.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/jsch-0.1.42.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/javax.inject-1.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/netty-3.2.2.Final.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/hive-jdbc.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/jasper-runtime-5.5.23.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/hadoop-yarn-server-resourcemanager.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/commons-beanutils-core-1.8.0.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/jersey-server-1.9.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/findbugs-annotations-1.3.9-1.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/datanucleus-api-jdo-3.2.1.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/commons-io-2.4.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/apache-log4j-extras-1.2.17.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/hbase-annotations.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/commons-el-1.0.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/datanucleus-core-3.2.2.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/jaxb-api-2.2.2.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/logredactor-1.0.3.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/avro.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/jaxb-impl-2.2.3-1.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/hadoop-auth.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/mail-1.4.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/commons-configuration-1.6.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/opencsv-2.3.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/commons-math3-3.1.1.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/slf4j-api-1.7.5.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/hive-shims.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/apacheds-kerberos-codec-2.0.0-M15.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/janino-2.7.6.jar\:/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/jamon-runtime-2.3.1.jar
+user.name=yarn
+java.vm.specification.version=1.7
+sun.java.command=org.apache.hadoop.mapreduce.v2.app.MRAppMaster
+java.home=/usr/java/jdk1.7.0_67-cloudera/jre
+sun.arch.data.model=64
+user.language=en
+java.specification.vendor=Oracle Corporation
+awt.toolkit=sun.awt.X11.XToolkit
+java.vm.info=mixed mode
+java.version=1.7.0_67
+java.ext.dirs=/usr/java/jdk1.7.0_67-cloudera/jre/lib/ext\:/usr/java/packages/lib/ext
+sun.boot.class.path=/usr/java/jdk1.7.0_67-cloudera/jre/lib/resources.jar\:/usr/java/jdk1.7.0_67-cloudera/jre/lib/rt.jar\:/usr/java/jdk1.7.0_67-cloudera/jre/lib/sunrsasign.jar\:/usr/java/jdk1.7.0_67-cloudera/jre/lib/jsse.jar\:/usr/java/jdk1.7.0_67-cloudera/jre/lib/jce.jar\:/usr/java/jdk1.7.0_67-cloudera/jre/lib/charsets.jar\:/usr/java/jdk1.7.0_67-cloudera/jre/lib/jfr.jar\:/usr/java/jdk1.7.0_67-cloudera/jre/classes
+java.vendor=Oracle Corporation
+file.separator=/
+oozie.launcher.job.id=job_1466402626529_0001
+oozie.action.stats.properties=/data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/stats.properties
+java.vendor.url.bug=http\://bugreport.sun.com/bugreport/
+sun.io.unicode.encoding=UnicodeLittle
+sun.cpu.endian=little
+sun.cpu.isalist=
+------------------------
+
+=================================================================
+
+>>> Invoking Main class now >>>
+
+
+Oozie Hive 2 action configuration
+=================================================================
+
+Using action configuration file /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/action.xml
+------------------------
+Setting env property for mapreduce.job.credentials.binary to: /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001/container_tokens
+------------------------
+Current (local) dir = /data/yarn/nm/usercache/subash/appcache/application_1466402626529_0001/container_1466402626529_0001_01_000001
+------------------------
+  tmp
+  container_tokens
+  .container_tokens.crc
+  launch_container.sh
+  .launch_container.sh.crc
+  default_container_executor_session.sh
+  .default_container_executor_session.sh.crc
+  default_container_executor.sh
+  .default_container_executor.sh.crc
+  slf4j-log4j12-1.7.5.jar
+  jersey-json-1.9.jar
+  asm-tree-3.1.jar
+  hive-shims-0.23.jar
+  commons-cli-1.2.jar
+  api-asn1-api-1.0.0-M20.jar
+  activation-1.1.jar
+  commons-dbcp-1.4.jar
+  stax-api-1.0-2.jar
+  guice-servlet-3.0.jar
+  log4j-1.2.17.jar
+  jdo-api-3.0.1.jar
+  commons-lang-2.4.jar
+  guava-11.0.2.jar
+  aopalliance-1.0.jar
+  eigenbase-properties-1.1.4.jar
+  libfb303-0.9.2.jar
+  commons-logging-1.1.jar
+  hadoop-annotations.jar
+  guice-3.0.jar
+  jsr305-3.0.0.jar
+  jetty-util-6.1.26.cloudera.2.jar
+  antlr-2.7.7.jar
+  commons-httpclient-3.1.jar
+  oozie-hadoop-utils.jar
+  commons-collections-3.2.2.jar
+  hadoop-yarn-server-web-proxy.jar
+  hadoop-yarn-api.jar
+  hive-shims-common.jar
+  calcite-linq4j-1.0.0-incubating.jar
+  geronimo-jaspic_1.0_spec-1.0.jar
+  super-csv-2.2.0.jar
+  calcite-avatica-1.0.0-incubating.jar
+  jetty-6.1.26.cloudera.2.jar
+  apacheds-i18n-2.0.0-M15.jar
+  htrace-core4-4.0.1-incubating.jar
+  jta-1.1.jar
+  oozie-sharelib-oozie.jar
+  jasper-compiler-5.5.23.jar
+  hadoop-common.jar
+  pentaho-aggdesigner-algorithm-5.1.5-jhyde.jar
+  antlr-runtime-3.4.jar
+  hive-exec.jar
+  geronimo-jta_1.1_spec-1.1.1.jar
+  json-simple-1.1.jar
+  asm-commons-3.1.jar
+  hadoop-yarn-common.jar
+  hbase-protocol.jar
+  oozie-sharelib-hive2.jar
+  jackson-core-asl-1.8.8.jar
+  snappy-java-1.0.4.1.jar
+  commons-beanutils-1.7.0.jar
+  zookeeper.jar
+  hive-metastore.jar
+  leveldbjni-all-1.8.jar
+  jobSubmitDir
+  httpcore-4.2.5.jar
+  jpam-1.1.jar
+  libthrift-0.9.2.jar
+  commons-pool-1.5.4.jar
+  httpclient-4.2.5.jar
+  curator-client-2.6.0.jar
+  jsp-api-2.0.jar
+  jackson-xc-1.8.8.jar
+  jersey-servlet-1.14.jar
+  oozie-sharelib-hive2-4.1.0-cdh5.7.1.jar
+  geronimo-annotation_1.0_spec-1.1.1.jar
+  jackson-mapper-asl-1.8.8.jar
+  jetty-all-7.6.0.v20120127.jar
+  gson-2.2.4.jar
+  htrace-core-3.2.0-incubating.jar
+  jettison-1.1.jar
+  oozie-hadoop-utils-2.6.0-cdh5.7.1.oozie-4.1.0-cdh5.7.1.jar
+  jersey-guice-1.9.jar
+  curator-recipes-2.7.1.jar
+  hive-service.jar
+  api-util-1.0.0-M20.jar
+  hive-serde.jar
+  commons-net-3.1.jar
+  servlet-api-2.5.jar
+  jets3t-0.6.1.jar
+  paranamer-2.3.jar
+  xmlenc-0.52.jar
+  jersey-core-1.9.jar
+  curator-framework-2.6.0.jar
+  oozie-sharelib-oozie-4.1.0-cdh5.7.1.jar
+  commons-digester-1.8.jar
+  protobuf-java-2.5.0.jar
+  commons-compiler-2.7.6.jar
+  asm-3.2.jar
+  hadoop-yarn-server-applicationhistoryservice.jar
+  calcite-core-1.0.0-incubating.jar
+  stringtemplate-3.2.1.jar
+  hive-shims-scheduler.jar
+  hbase-common.jar
+  job.xml
+  hadoop-yarn-server-common.jar
+  hive-beeline.jar
+  datanucleus-rdbms-3.2.1.jar
+  jersey-client-1.9.jar
+  jackson-jaxrs-1.8.8.jar
+  jline-2.11.jar
+  jsch-0.1.42.jar
+  javax.inject-1.jar
+  netty-3.2.2.Final.jar
+  hive-jdbc.jar
+  jasper-runtime-5.5.23.jar
+  hadoop-yarn-server-resourcemanager.jar
+  commons-beanutils-core-1.8.0.jar
+  jersey-server-1.9.jar
+  findbugs-annotations-1.3.9-1.jar
+  datanucleus-api-jdo-3.2.1.jar
+  commons-io-2.4.jar
+  apache-log4j-extras-1.2.17.jar
+  hbase-annotations.jar
+  commons-el-1.0.jar
+  datanucleus-core-3.2.2.jar
+  jaxb-api-2.2.2.jar
+  logredactor-1.0.3.jar
+  avro.jar
+  jaxb-impl-2.2.3-1.jar
+  hadoop-auth.jar
+  mail-1.4.jar
+  commons-configuration-1.6.jar
+  opencsv-2.3.jar
+  commons-math3-3.1.1.jar
+  slf4j-api-1.7.5.jar
+  hive-shims.jar
+  apacheds-kerberos-codec-2.0.0-M15.jar
+  Hive_query.sql
+  janino-2.7.6.jar
+  jamon-runtime-2.3.1.jar
+  action.xml
+  .action.xml.crc
+  propagation-conf.xml
+------------------------
+
+
+Script [Hive_query.sql] content: 
+------------------------
+select ${hivevar:fields}
+ from ${hivevar:tablename} 
+LIMIT ${hivevar:n}
+;
+
+------------------------
+
+Parameters:
+------------------------
+  fields=*
+  tablename=values__tmp__table__1
+  n=100
+------------------------
+
+Beeline command arguments :
+             -u
+             jdbc:hive2://node1.yotabitesllc.com:10000/default
+             -n
+             subash
+             -p
+             DUMMY
+             -d
+             org.apache.hive.jdbc.HiveDriver
+             -f
+             Hive_query.sql
+             --hivevar
+             fields=*
+             --hivevar
+             tablename=values__tmp__table__1
+             --hivevar
+             n=100
+             -a
+             delegationToken
+             --hiveconf
+             mapreduce.job.tags=oozie-23879caa5b975d0b12fbb7cf4e67749a
+             --hiveconf
+             oozie.action.id=0000001-160620020454036-oozie-oozi-W@hive2-55aa
+             --hiveconf
+             oozie.HadoopAccessorService.created=true
+             --hiveconf
+             oozie.job.id=0000001-160620020454036-oozie-oozi-W
+             --hiveconf
+             oozie.child.mapreduce.job.tags=oozie-23879caa5b975d0b12fbb7cf4e67749a
+
+Fetching child yarn jobs
+tag id : oozie-23879caa5b975d0b12fbb7cf4e67749a
+Child yarn jobs are found - 
+=================================================================
+
+>>> Invoking Beeline command line now >>>
+
+0: jdbc:hive2://node1.yotabitesllc.com:10000/> select ${hivevar:fields}
+0: jdbc:hive2://node1.yotabitesllc.com:10000/>  from ${hivevar:tablename} 
+0: jdbc:hive2://node1.yotabitesllc.com:10000/> LIMIT ${hivevar:n}
+0: jdbc:hive2://node1.yotabitesllc.com:10000/> ;
+
+
+<<< Invocation of Beeline command completed <<<
+
+ Hadoop Job IDs executed by Beeline: 
+
+Intercepting System.exit(2)
+
+<<< Invocation of Main class completed <<<
+
+Failing Oozie Launcher, Main class [org.apache.oozie.action.hadoop.Hive2Main], exit code [2]
+
+Oozie Launcher failed, finishing Hadoop job gracefully
+
+Oozie Launcher, uploading action data to HDFS sequence file: hdfs://node1.yotabitesllc.com:8020/user/subash/oozie-oozi/0000001-160620020454036-oozie-oozi-W/hive2-55aa--hive2/action-data.seq
+
+Oozie Launcher ends

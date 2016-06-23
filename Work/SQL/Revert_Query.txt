@@ -1,0 +1,23 @@
+
+update
+[BDL].[dbo].[EMPLOYEE_INFO]
+set [DELETED_DATE] = null where [EMAIL_TXT] IN ('mani@yotabitesllc.com','desi@yotabitesllc.com') ; 
+
+
+delete from  [BDL].[dbo].[EMPLOYEE_INFO]  where [EMAIL_TXT] IN ('addnew_rec@yotabitesllc.com','addnew_rec2@yotabitesllc.com') ; 
+
+update
+[BDL].[dbo].[EMPLOYEE_INFO]
+set [CLIENT_RETENTION_NO] = '88.43', BIRTH_DT = CURRENT_TIMESTAMP where [EMAIL_TXT] = 'yesh@yotabitesllc.com'; 
+
+
+
+update
+[BDL].[dbo].[EMPLOYEE_INFO]
+set [CLIENT_RETENTION_NO] = '88.47', BIRTH_DT = CURRENT_TIMESTAMP where [EMAIL_TXT] = 'sampe@yotabitesllc.com' ; 
+
+	
+update
+[BDL].[dbo].[EMPLOYEE_INFO]
+set [DELETED_DATE] = null where [EMAIL_TXT] IN ('mani@yotabitesllc.com','desi@yotabitesllc.com') ; 
+	

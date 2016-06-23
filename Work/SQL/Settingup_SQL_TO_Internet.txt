@@ -1,0 +1,15 @@
+https://www.youtube.com/watch?v=kkgwNjmfFog
+https://www.youtube.com/watch?v=VOUDdUJ5BLY
+how to access sql server database over internet
+
+
+122.178.144.130
+122.178.145.93
+122.178.145.93
+
+
+
+sqoop import –-connect jdbc:sqlserver://122.178.145.93\\SQLEXPRESS:1434;databaseName=BDL --username subash –password Subash07  --table employee --hive-import –m1 --hive-table employee_sql_sr_testremote --driver com.microsoft.sqlserver.jdbc.SQLServerDriver
+
+sqoop import --connect "jdbc:sqlserver://122.178.145.93\\SQLEXPRESS:1433;database=BDL" --table "dbo.EMPLOYEE" --username subash --password Subash07 --driver com.microsoft.sqlserver.jdbc.SQLServerDriver -m1 --hive-table empl_21_06_attemp3 --map-column-hive ROOSTER_IND=String --hive-import
+ 

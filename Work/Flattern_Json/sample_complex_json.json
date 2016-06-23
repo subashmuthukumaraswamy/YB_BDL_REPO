@@ -1,0 +1,340 @@
+{
+	"_id" : "00251df5-c866-4ad6-ba03-f871d71a84b2_u",
+	"version" : "1549f09bdf5d3de0aab2a2d773b6506ed8e3f24e",
+	"events" : [{
+			"et" : "com.hrb.esg.ods.domain.tax.event.TaxWorkspaceCreatedEvent",
+			"client" : {
+				"clientId" : "612bf3d8-48c2-4bf5-b01f-e77a2711c6b8",
+				"firstName" : "LNAME112031323",
+				"lastName" : "FNAME112031323",
+				"taxIdentificationNumber" : "112031323",
+				"dateOfBirth" : {
+					"$date" : "1983-04-04T06:00:00.000Z"
+				}
+			},
+			"taxYear" : {
+				"$numberLong" : "2013"
+			},
+			"type" : "CONSUMER",
+			"eid" : "30d15575-d6af-4268-89f0-ada9fd43f74f",
+			"ets" : {
+				"$date" : "2013-12-03T23:00:55.040Z"
+			},
+			"aid" : "00251df5-c866-4ad6-ba03-f871d71a84b2_u",
+			"ev" : "97525a82b17be891f70a32bbc127e0d3f429bcb5",
+			"ep" : {}
+
+		}, {
+			"et" : "com.hrb.esg.ods.domain.tax.event.ConsumerTaxReturnCreatedEvent",
+			"returnFileId" : "c85d707c-e729-43d6-b56a-4bdf2a204dda",
+			"practice" : false,
+			"taxProductType" : "1040",
+			"eid" : "2570431e-4e82-4de0-8004-66893446364a",
+			"ets" : {
+				"$date" : "2013-12-03T23:00:55.041Z"
+			},
+			"aid" : "00251df5-c866-4ad6-ba03-f871d71a84b2_u",
+			"ev" : "97525a82b17be891f70a32bbc127e0d3f429bcb5",
+			"ep" : {}
+
+		}, {
+			"et" : "com.hrb.esg.ods.domain.tax.event.TaxpayerUpdatedOnConsumerTaxReturnEvent",
+			"returnFileId" : "c85d707c-e729-43d6-b56a-4bdf2a204dda",
+			"taxpayer" : {
+				"taxIdentificationNumber" : "112031323",
+				"firstName" : "LNAME112031323",
+				"lastName" : "FNAME112031323",
+				"dateOfBirth" : {
+					"$date" : "1983-04-04T06:00:00.000Z"
+				}
+			},
+			"cardinality" : "PRIMARY",
+			"eid" : "a8ebf89d-5372-4f1e-9efc-bf3d1d2c2add",
+			"ets" : {
+				"$date" : "2013-12-03T23:00:55.041Z"
+			},
+			"aid" : "00251df5-c866-4ad6-ba03-f871d71a84b2_u",
+			"ev" : "97525a82b17be891f70a32bbc127e0d3f429bcb5",
+			"ep" : {}
+
+		}, {
+			"et" : "com.hrb.esg.ods.domain.tax.event.FilingStatusOnConsumerTaxReturnChangedEvent",
+			"returnFileId" : "c85d707c-e729-43d6-b56a-4bdf2a204dda",
+			"filingStatus" : "SINGLE",
+			"eid" : "9259eea8-f337-4754-b896-c9bc3006ea0a",
+			"ets" : {
+				"$date" : "2013-12-03T23:00:55.042Z"
+			},
+			"aid" : "00251df5-c866-4ad6-ba03-f871d71a84b2_u",
+			"ev" : "97525a82b17be891f70a32bbc127e0d3f429bcb5",
+			"ep" : {}
+
+		}, {
+			"et" : "com.hrb.esg.ods.domain.tax.event.SubscriberUpdatedEvent",
+			"subscriber" : {
+				"subscriberId" : "40800",
+				"subscriberType" : "OWNER"
+			},
+			"eid" : "b6df7812-5b02-4ac6-9f2d-c32c3342068e",
+			"ets" : {
+				"$date" : "2013-12-03T23:00:55.042Z"
+			},
+			"aid" : "00251df5-c866-4ad6-ba03-f871d71a84b2_u",
+			"ev" : "97525a82b17be891f70a32bbc127e0d3f429bcb5",
+			"ep" : {}
+
+		}, {
+			"et" : "com.hrb.esg.ods.domain.tax.event.TaxDataResourcesStoredEvent",
+			"returnFileId" : "c85d707c-e729-43d6-b56a-4bdf2a204dda",
+			"taxDataResource" : {
+				"name" : "c85d707c-e729-43d6-b56a-4bdf2a204dda.clz",
+				"uriPath" : "/00251df5-c866-4ad6-ba03-f871d71a84b2/r/c85d707c-e729-43d6-b56a-4bdf2a204dda/d/c85d707c-e729-43d6-b56a-4bdf2a204dda.clz?rev=efea1d1bbb3b018ea57fc9f13c69ded5c9343e88",
+				"contentType" : "x-hrb-application/clz",
+				"metadata" : {
+					"x-hrb-content-version" : "1",
+					"x-hrb-content-app" : "BW"
+				}
+			},
+			"eid" : "b71e3771-b707-40cb-8ee7-1291d4d78e82",
+			"ets" : {
+				"$date" : "2013-12-03T23:00:55.418Z"
+			},
+			"aid" : "00251df5-c866-4ad6-ba03-f871d71a84b2_u",
+			"ev" : "d789d0c069a409fb63e829b15c3d26b4abe0fa05",
+			"ep" : {}
+
+		}, {
+			"et" : "com.hrb.esg.ods.domain.tax.event.PaymentAddedEvent",
+			"payment" : {
+				"id" : "75dc0e0d-da25-4325-ba23-87b32baf68db",
+				"resourceLink" : {
+					"name" : "75dc0e0d-da25-4325-ba23-87b32baf68db.xml",
+					"uriPath" : "/00251df5-c866-4ad6-ba03-f871d71a84b2/p/75dc0e0d-da25-4325-ba23-87b32baf68db.xml?rev=cafc626e31765511c14aec0b76dc691b00f96c02",
+					"contentType" : "x-hrb-application/pos",
+					"metadata" : {
+						"x-hrb-content-version" : "01",
+						"x-hrb-content-app" : "BW"
+					}
+				},
+				"lineItems" : [{
+						"returnId" : "c85d707c-e729-43d6-b56a-4bdf2a204dda",
+						"paymentStatus" : "PAID",
+						"balanceDue" : 200.0
+					}
+				],
+				"createdDateTime" : {
+					"$date" : "2013-12-03T23:00:55.723Z"
+				}
+			},
+			"eid" : "8d2cac9a-ecd7-42fa-89ea-234e4834d25c",
+			"ets" : {
+				"$date" : "2013-12-03T23:00:55.733Z"
+			},
+			"aid" : "00251df5-c866-4ad6-ba03-f871d71a84b2_u",
+			"ev" : "46b801ba28865580cf4762d90c1039211bb006db",
+			"ep" : {}
+
+		}, {
+			"et" : "com.hrb.esg.ods.domain.tax.event.TaxReturnEntityCreatedEvent",
+			"returnFileId" : "c85d707c-e729-43d6-b56a-4bdf2a204dda",
+			"filingAgency" : "US",
+			"entityGuid" : "GUID112031323",
+			"eid" : "9fe12792-cb59-4a64-bc3c-ca730c60a619",
+			"ets" : {
+				"$date" : "2013-12-03T23:00:56.221Z"
+			},
+			"aid" : "00251df5-c866-4ad6-ba03-f871d71a84b2_u",
+			"ev" : "280c35ae5d59dc200d23332a3366f7541706f386",
+			"ep" : {}
+
+		}, {
+			"et" : "com.hrb.esg.ods.domain.tax.event.TaxReturnEntityCreatedEvent",
+			"returnFileId" : "c85d707c-e729-43d6-b56a-4bdf2a204dda",
+			"filingAgency" : "MO",
+			"entityGuid" : "GUID112031323",
+			"eid" : "a4f2b738-62f0-4a5a-9a4e-a7dcce2ab054",
+			"ets" : {
+				"$date" : "2013-12-03T23:00:56.729Z"
+			},
+			"aid" : "00251df5-c866-4ad6-ba03-f871d71a84b2_u",
+			"ev" : "cd0a51f3e79956623d0cdab3775b843b34f2594c",
+			"ep" : {}
+
+		}, {
+			"et" : "com.hrb.esg.ods.domain.tax.event.TaxReturnResourceAddedEvent",
+			"returnFileId" : "c85d707c-e729-43d6-b56a-4bdf2a204dda",
+			"agency" : "MO",
+			"resourceLink" : {
+				"name" : "abcdeee.pdf",
+				"uriPath" : "/00251df5-c866-4ad6-ba03-f871d71a84b2/r/c85d707c-e729-43d6-b56a-4bdf2a204dda/e/MO/f/abcdeee.pdf?rev=0b8788f697fc929a56a8d7d54d87f95b47200630",
+				"contentType" : "application/pdf",
+				"metadata" : {
+					"x-hrb-content-version" : "1"
+				}
+			},
+			"eid" : "5c93487c-e354-4b3d-9aff-71e996bcdbf8",
+			"ets" : {
+				"$date" : "2013-12-03T23:00:57.259Z"
+			},
+			"aid" : "00251df5-c866-4ad6-ba03-f871d71a84b2_u",
+			"ev" : "ec9215796429516e89284faa070d5f112230b609",
+			"ep" : {}
+
+		}, {
+			"et" : "com.hrb.esg.ods.domain.tax.event.TaxReturnResourceAddedEvent",
+			"returnFileId" : "c85d707c-e729-43d6-b56a-4bdf2a204dda",
+			"agency" : "US",
+			"resourceLink" : {
+				"name" : "abcdeee.pdf",
+				"uriPath" : "/00251df5-c866-4ad6-ba03-f871d71a84b2/r/c85d707c-e729-43d6-b56a-4bdf2a204dda/e/US/f/abcdeee.pdf?rev=0b8788f697fc929a56a8d7d54d87f95b47200630",
+				"contentType" : "application/pdf",
+				"metadata" : {
+					"x-hrb-content-version" : "1"
+				}
+			},
+			"eid" : "824fee84-c25d-465f-b9e3-9a9370c68c06",
+			"ets" : {
+				"$date" : "2013-12-03T23:00:57.662Z"
+			},
+			"aid" : "00251df5-c866-4ad6-ba03-f871d71a84b2_u",
+			"ev" : "bbe6e01f81e6e4bcbebe3951352b37921289b4cb",
+			"ep" : {}
+
+		}, {
+			"et" : "com.hrb.esg.ods.domain.tax.event.FilingCreatedEvent",
+			"filingId" : "03d77832-e782-4b7f-b2d1-9c1d072caf66",
+			"returnFileId" : "c85d707c-e729-43d6-b56a-4bdf2a204dda",
+			"env" : "TS13_BANK",
+			"eid" : "4c93d1db-1e08-4e7c-b9e0-ba61d92fa381",
+			"ets" : {
+				"$date" : "2013-12-03T23:00:57.989Z"
+			},
+			"aid" : "00251df5-c866-4ad6-ba03-f871d71a84b2_u",
+			"ev" : "1549f09bdf5d3de0aab2a2d773b6506ed8e3f24e",
+			"ep" : {}
+
+		}, {
+			"et" : "com.hrb.esg.ods.domain.tax.event.FilingEntityCreatedEvent",
+			"filingId" : "03d77832-e782-4b7f-b2d1-9c1d072caf66",
+			"returnFileId" : "c85d707c-e729-43d6-b56a-4bdf2a204dda",
+			"returnFiling" : {
+				"agency" : "US",
+				"methodType" : "PAPER",
+				"amendment" : true,
+				"extension" : false
+			},
+			"eid" : "498cc31e-7b21-4c79-bd49-7bc565026f08",
+			"ets" : {
+				"$date" : "2013-12-03T23:00:57.990Z"
+			},
+			"aid" : "00251df5-c866-4ad6-ba03-f871d71a84b2_u",
+			"ev" : "1549f09bdf5d3de0aab2a2d773b6506ed8e3f24e",
+			"ep" : {}
+
+		}, {
+			"et" : "com.hrb.esg.ods.domain.tax.event.FilingEntityCreatedEvent",
+			"filingId" : "03d77832-e782-4b7f-b2d1-9c1d072caf66",
+			"returnFileId" : "c85d707c-e729-43d6-b56a-4bdf2a204dda",
+			"returnFiling" : {
+				"agency" : "MO",
+				"methodType" : "PAPER",
+				"amendment" : true,
+				"extension" : false
+			},
+			"eid" : "b61604fb-4d97-46c8-b6ab-096d7346ea82",
+			"ets" : {
+				"$date" : "2013-12-03T23:00:57.990Z"
+			},
+			"aid" : "00251df5-c866-4ad6-ba03-f871d71a84b2_u",
+			"ev" : "1549f09bdf5d3de0aab2a2d773b6506ed8e3f24e",
+			"ep" : {}
+
+		}, {
+			"et" : "com.hrb.esg.ods.domain.tax.event.TaxReturnActivityCreatedEvent",
+			"returnFileId" : "c85d707c-e729-43d6-b56a-4bdf2a204dda",
+			"activity" : {
+				"t" : "com.hrb.esg.ods.domain.tax.activity.FilingActivity",
+				"id" : "eaa5d0fe-5b50-4e7f-9f73-40be6b5a193d",
+				"created" : {
+					"$date" : "2013-12-03T23:00:57.990Z"
+				},
+				"officeId" : "40800",
+				"taxYear" : {
+					"$numberLong" : "2013"
+				},
+				"returnType" : "1040",
+				"taxReturnFile" : {
+					"name" : "c85d707c-e729-43d6-b56a-4bdf2a204dda.clz",
+					"uriPath" : "/00251df5-c866-4ad6-ba03-f871d71a84b2/r/c85d707c-e729-43d6-b56a-4bdf2a204dda/d/c85d707c-e729-43d6-b56a-4bdf2a204dda.clz?rev=efea1d1bbb3b018ea57fc9f13c69ded5c9343e88",
+					"contentType" : "x-hrb-application/clz",
+					"metadata" : {
+						"x-hrb-content-version" : "1",
+						"x-hrb-content-app" : "BW"
+					}
+				},
+				"payment" : {
+					"id" : "75dc0e0d-da25-4325-ba23-87b32baf68db",
+					"resourceLink" : {
+						"name" : "75dc0e0d-da25-4325-ba23-87b32baf68db.xml",
+						"uriPath" : "/00251df5-c866-4ad6-ba03-f871d71a84b2/p/75dc0e0d-da25-4325-ba23-87b32baf68db.xml?rev=cafc626e31765511c14aec0b76dc691b00f96c02",
+						"contentType" : "x-hrb-application/pos",
+						"metadata" : {
+							"x-hrb-content-version" : "01",
+							"x-hrb-content-app" : "BW"
+						}
+					},
+					"lineItems" : [{
+							"returnId" : "c85d707c-e729-43d6-b56a-4bdf2a204dda",
+							"paymentStatus" : "PAID",
+							"balanceDue" : 200.0
+						}
+					],
+					"createdDateTime" : {
+						"$date" : "2013-12-03T23:00:55.723Z"
+					}
+				},
+				"filing" : {
+					"t" : "com.hrb.esg.ods.domain.tax.Filing",
+					"resources" : [],
+					"filingId" : "03d77832-e782-4b7f-b2d1-9c1d072caf66",
+					"entities" : {
+						"GUID112031323" : {
+							"t" : "com.hrb.esg.ods.domain.tax.FilingEntity",
+							"resources" : [{
+									"name" : "abcdeee.pdf",
+									"uriPath" : "/00251df5-c866-4ad6-ba03-f871d71a84b2/r/c85d707c-e729-43d6-b56a-4bdf2a204dda/e/MO/f/abcdeee.pdf?rev=0b8788f697fc929a56a8d7d54d87f95b47200630",
+									"contentType" : "application/pdf",
+									"metadata" : {
+										"x-hrb-content-version" : "1"
+									}
+								}
+							],
+							"agency" : "MO",
+							"guid" : "GUID112031323",
+							"creationDate" : {
+								"$date" : "2013-12-03T23:00:57.990Z"
+							},
+							"method" : "PAPER",
+							"filingStatus" : "PENDING_TRANSMISSION",
+							"amendment" : true,
+							"extension" : false
+						}
+					},
+					"filingTime" : {
+						"$date" : "2013-12-03T23:00:57.989Z"
+					},
+					"status" : "CREATED",
+					"env" : "TS13_BANK"
+				}
+			},
+			"eid" : "fedfe106-1a24-4f48-923e-e7349e553354",
+			"ets" : {
+				"$date" : "2013-12-03T23:00:57.990Z"
+			},
+			"aid" : "00251df5-c866-4ad6-ba03-f871d71a84b2_u",
+			"ev" : "1549f09bdf5d3de0aab2a2d773b6506ed8e3f24e",
+			"ep" : {}
+
+		}
+	]
+}

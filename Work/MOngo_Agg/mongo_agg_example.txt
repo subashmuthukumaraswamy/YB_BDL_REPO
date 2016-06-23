@@ -1,0 +1,92 @@
+db.createCollection("twt")
+
+db.twt.insert({
+"title": "MongoDB Overview", 
+"description": "MongoDB is no sql database",
+"by_user": "tutorials point",
+"url": "http://www.tutorialspoint.com", 
+"likes": 100
+})
+
+db.twt.insert({
+"title": "NoSQL Overview", 
+"description": "No sql database is very fast",
+"by_user": "tutorials point",
+"url": "http://www.tutorialspoint.com", 
+"likes": 10
+})
+
+db.twt.insert({
+"title": "Neo4j Overview", 
+"description": "Neo4j is no sql database",
+"by_user": "Neo4j",
+"url": "http://www.neo4j.com", 
+"likes": 750
+})
+
+
+db.twt.aggregate([{	$group : {_id : "$by_user",  count : {$sum : 1}}}, {$sort : {total : 1}}])
+db.twt.aggregate([{$group : {_id : "$by_user", sum : {$sum : "$likes"}}}, {$sort : {total : 1}}])
+db.twt.aggregate([{$group : {_id : "$by_user", avg : {$avg : "$likes"}}}, {$sort : {total : 1}}])
+db.twt.aggregate([{$group : {_id : "$by_user", min : {$min : "$likes"}}}, {$sort : {total : 1}}])
+db.twt.aggregate([{$group : {_id : "$by_user", max : {$max : "$likes"}}}, {$sort : {total : 1}}])
+db.twt.aggregate([{$group : {_id : "$by_user", urlDistinct : {$push: "$url"}}}, {$sort : {total : 1}}])
+db.twt.aggregate([{$group : {_id : "$by_user", url : {$addToSet : "$url"}}}, {$sort : {total : 1}}])
+db.twt.aggregate([{$group : {_id : "$by_user", first_url : {$first : "$url"}}}, {$sort : {total : -1}}])
+db.twt.aggregate([{$group : {_id : "$by_user", last_url : {$last : "$url"}}}, {$sort : {total : 1}}])
+
+ db.twt.find()
+
+ db.twt.aggregate({$group : {_id : "$by_user", total : {$sum: "$likes"}}}, {$sort : {total : 1}})
+
+ 
+ db.twt.distinct("by_user")
+
+ db.twt.mapReduce(
+ 	function () {
+ 	print('I am here!');
+ 	emit(this.title, this.likes)
+ },
+ 	function (key, value) {
+ 	var sum1 = Array.sum(value);
+ 	print(key + ' ---- ' + sum1);
+ 	return sum1;
+ }, {
+ 	out : "outputmes"
+ });
+ 
+ 
+ 
+ db.twt.aggregate(
+ 	function () {
+ 	print('I am here!');
+ 	emit(this.title, this.likes)
+ },
+ 	function (key, value) {
+ 	var sum1 = Array.sum(value);
+ 	print(key + ' ---- ' + sum1);
+ 	return sum1;
+ }, {
+ 	out : "outputmes"
+ });
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

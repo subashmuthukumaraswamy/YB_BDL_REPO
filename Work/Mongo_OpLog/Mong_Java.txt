@@ -1,0 +1,5 @@
+http://mongodb-enron-email.s3-website-us-east-1.amazonaws.com/
+
+lib : direct bson (Mongo data type) to KV pair - string
+
+google gson check 

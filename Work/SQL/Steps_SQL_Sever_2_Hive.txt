@@ -1,0 +1,188 @@
+------------------------------INTIAL_LOAD---------------------------------------------------------------------------------
+ 
+1. Remove Data if already exists in HDFS 
+hadoop fs -rm -r /user/admin/subashWork/table_data
+  
+2. Use the sqoop command to import the data from sql server to HDFS.  
+	Check for the IP in the machine as it might change daily
+  
+sqoop import --connect "jdbc:sqlserver://122.178.31.156\\SQLEXPRESS:1433;database=BDL" --table "dbo.EMPLOYEE_INFO" --username subash --password Subash07 --driver com.microsoft.sqlserver.jdbc.SQLServerDriver -m1 --map-column-hive ROOSTER_IND=String --as-avrodatafile --target-dir /user/admin/subashWork/table_data
+
+
+-- need to check boolean and map split by primary key
+
+
+3. Check if the data is generated with _SUCCESS file.
+
+   hadoop fs -ls /user/admin/subashWork/table_data
+   
+   hadoop fs -cat /user/admin/subashWork/table_data/part*
+
+
+4. Login in to Hive, Change to required schema .
+use subash;
+
+5. Remove the _SUCCESS file from the data location
+hadoop fs -rm  /user/admin/subashWork/table_data/_SUCCESS
+
+6. Go to Specific location 
+cd /root/subashWork 
+
+7. get the data file from HDFS to local. Delete if there is any existing file.
+rm part-m-00000.avro 
+
+hadoop fs -get /user/admin/subashWork/table_data/part-m-00000.avro  
+
+8. Generate the schema file using the  avro-tools.
+
+avro-tools getschema  part-m-00000.avro > schema.avsc
+ 
+cat schema.avsc
+
+
+9. Make directory for schema file 
+hadoop fs -mkdir /user/admin/subashWork/table_schema
+
+10.  Move the schema file from local to HDFS.
+hadoop fs -rm /user/admin/subashWork/table_schema/schema.avsc
+
+hadoop fs -put schema.avsc /user/admin/subashWork/table_schema/
+
+11. Check if the file is moved to the schema location 
+   hadoop fs -ls /user/admin/subashWork/table_schema
+
+12. Login in to Hive. Create a table in the schema required.  
+ 
+CREATE EXTERNAL TABLE employee_info 
+STORED as AVRO 
+location "/user/admin/subashWork/table_data/"
+TBLPROPERTIES("avro.schema.url" = "hdfs://138.201.50.12/user/admin/subashWork/table_schema/schema.avsc");
+ 
+-------------------------------INCREMENTAL_LOAD--------------------------------------------------------------------------------
+
+ 1. Check if there is an incremental load HDFS location. If then remove the directory. 
+	 hadoop fs -rm -r /user/admin/subashWork/table_incrData
+	   
+2. Use the sqoop command to import the data from sql server to HDFS.  
+	Check for the IP in the machine as it might change daily
+  
+sqoop import --connect "jdbc:sqlserver://122.178.31.156\\SQLEXPRESS:1433;database=BDL" --table "dbo.EMPLOYEE_INFO" --username subash --password Subash07 --driver com.microsoft.sqlserver.jdbc.SQLServerDriver -m1 --map-column-hive ROOSTER_IND=String --as-avrodatafile --target-dir /user/admin/subashWork/table_incrData --where  "(CONVERT(DATE, [LAST_UPDATED_DATE]) = CONVERT(DATE, CURRENT_TIMESTAMP) 
+  and LAST_UPDATED_DATE > DateADD(mi, -15, Current_TimeStamp) )"
+
+3. Check if the data is generated with _SUCCESS file. Remove it.
+
+   hadoop fs -ls /user/admin/subashWork/table_incrData
+	hadoop fs -rm  /user/admin/subashWork/table_incrData/_SUCCESS
+
+4. Login in to Hive. Create a table in the schema required.  
+ 
+CREATE EXTERNAL TABLE employee_info_incr 
+STORED as AVRO 
+location "/user/admin/subashWork/table_incrData/"
+TBLPROPERTIES("avro.schema.url" = "hdfs://138.201.50.12/user/admin/subashWork/table_schema/schema.avsc");
+ 
+ 
+ 5. create a reconcile_view and query it to verify the changes.
+ drop view reconcile_view;
+ 
+CREATE VIEW reconcile_view AS
+SELECT t1.* FROM
+(SELECT * FROM employee_info
+UNION ALL
+SELECT * from employee_info_incr ) t1
+JOIN
+(SELECT employee_id, max(LAST_UPDATED_DATE) max_modified FROM
+(SELECT * FROM employee_info
+UNION ALL
+SELECT * from employee_info_incr ) t3
+GROUP by employee_id) t2
+ON t1.employee_id = t2.employee_id AND t1.LAST_UPDATED_DATE = t2.max_modified 
+   AND t1.deleted_date IS NULL;
+
+		select * from reconcile_view; 
+	
+	
+DROP TABLE reporting_table;
+CREATE TABLE reporting_table AS
+SELECT * FROM reconcile_view;
+
+6. Remove the incremental data location
+ hadoop fs -rm -r /user/admin/subashWork/table_incrData
+
+ 7. point the base table to the reconcile_view.
+ 
+ INSERT OVERWRITE TABLE employee_info SELECT * FROM reporting_table;
+
+ 
+ 
+ -------------------------------SCHEMA_UPDATE--------------------------------------------------------------------------------
+
+ 
+ 
+ 
+1. Check if there is an incremental load HDFS location. If then remove the directory. 
+	 hadoop fs -rm -r /user/admin/subashWork/table_incrData
+	   
+2. Use the sqoop command to import the data from sql server to HDFS.  
+	Check for the IP in the machine as it might change daily
+  
+sqoop import --connect "jdbc:sqlserver://122.178.31.156\\SQLEXPRESS:1433;database=BDL" --table "dbo.EMPLOYEE_INFO" --username subash --password Subash07 --driver com.microsoft.sqlserver.jdbc.SQLServerDriver -m1 --map-column-hive ROOSTER_IND=String --as-avrodatafile --target-dir /user/admin/subashWork/table_incrData --where  "(CONVERT(DATE, [LAST_UPDATED_DATE]) = CONVERT(DATE, CURRENT_TIMESTAMP) 
+  and LAST_UPDATED_DATE > DateADD(mi, -15, Current_TimeStamp) )"
+ 
+ 
+ 
+3. Check if the data is generated with _SUCCESS file. Remove it.
+
+   hadoop fs -ls /user/admin/subashWork/table_incrData
+	hadoop fs -rm  /user/admin/subashWork/table_incrData/_SUCCESS
+ 
+    hadoop fs -cat /user/admin/subashWork/table_incrData/part*
+
+4. Go to Specific location 
+cd /root/subashWork 
+
+5. get the data file from HDFS to local. Delete if there is any existing file.
+rm part-m-00000.avro 
+
+hadoop fs -get /user/admin/subashWork/table_incrData/part-m-00000.avro  
+
+6. Generate the schema file using the  avro-tools.
+
+avro-tools getschema  part-m-00000.avro > schema.avsc
+ 
+cat schema.avsc
+ hadoop fs -rm /user/admin/subashWork/table_schema/schema.avsc
+
+hadoop fs -put schema.avsc /user/admin/subashWork/table_schema/
+
+
+ 7. create a reconcile_view and query it to verify the changes.
+ drop view reconcile_view;
+ 
+CREATE VIEW reconcile_view AS
+SELECT t1.* FROM
+(SELECT * FROM employee_info
+UNION ALL
+SELECT * from employee_info_incr ) t1
+JOIN
+(SELECT employee_id, max(LAST_UPDATED_DATE) max_modified FROM
+(SELECT * FROM employee_info
+UNION ALL
+SELECT * from employee_info_incr ) t3
+GROUP by employee_id) t2
+ON t1.employee_id = t2.employee_id AND t1.LAST_UPDATED_DATE = t2.max_modified 
+   AND t1.deleted_date IS NULL;
+
+		select * from reconcile_view; 
+	
+	
+DROP TABLE reporting_table;
+CREATE TABLE reporting_table AS
+SELECT * FROM reconcile_view;
+
+8. Remove the incremental data location
+ hadoop fs -rm -r /user/admin/subashWork/table_incrData
+
+9. point the base table to the reconcile_view.
+ 
+ INSERT OVERWRITE TABLE employee_info SELECT * FROM reporting_table;

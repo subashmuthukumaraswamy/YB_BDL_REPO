@@ -1,0 +1,7 @@
+ val textFile = sc.textFile("/user/admin/subashWork/auctiondata.csv");
+  
+ val wordCounts = textFile.flatMap(line => line.split(","))
+  
+  
+ val d = textFile.map(line => line.split(","))
+ 

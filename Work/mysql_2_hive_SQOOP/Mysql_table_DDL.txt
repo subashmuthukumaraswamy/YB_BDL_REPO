@@ -1,0 +1,44 @@
+table = employee
+
+ 
+ int 
+datetime
+smallint
+bigint
+varchar(100)
+bit
+integer
+decimal(4,2)
+https://dev.mysql.com/doc/refman/5.5/en/integer-types.html
+
+CREATE DATABASE subash;
+
+use subash;
+ 
+CREATE TABLE EMPLOYEE(
+EMPLOYEE_ID INT NOT NULL,
+BIRTH_DT DATETIME NOT NULL,
+TP_RATING SMALLINT NULL,
+GI_ID BIGINT NOT NULL,
+EMAIL_TXT VARCHAR(320) NULL,  
+ROOSTER_IND BIT NOT NULL,
+EMP_SVRC_LVL_NO INTEGER NOT NULL,
+CLIENT_RETENTION_NO DECIMAL(4,2) NULL   
+);
+
+
+insert into EMPLOYEE (EMPLOYEE_ID ,
+BIRTH_DT ,
+TP_RATING ,
+GI_ID ,
+EMAIL_TXT ,  
+ROOSTER_IND ,
+EMP_SVRC_LVL_NO ,
+CLIENT_RETENTION_NO)
+values
+("2312312", now(), 1, 2343453, 'sainatty@yotabitesllc.com', 1, 5 ,'22.80' )
+
+
+https://docs.hortonworks.com/HDPDocuments/HDP2/HDP-2.4.0/bk_dataintegration/content/incrementally-updating-hive-table-with-sqoop-and-ext-table.html
+
+http://hortonworks.com/blog/four-step-strategy-incremental-updates-hive/

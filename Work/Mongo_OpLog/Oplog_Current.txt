@@ -1,0 +1,37 @@
+>  db.currentOp()
+{
+        "inprog" : [
+                {
+                        "opid" : 30116744,
+                        "active" : true,
+                        "secs_running" : 0,
+                        "microsecs_running" : NumberLong(7),
+                        "op" : "insert",
+                        "ns" : "subash.ucht",
+                        "insert" : {
+                                "_id" : 10036665,
+                                "action" : "write transaction simulations",
+                                " iteration no:" : 10036665
+                        },
+                        "client" : "127.0.0.1:38829",
+                        "desc" : "conn6",
+                        "threadId" : "0x7f63158fa700",
+                        "connectionId" : 6,
+                        "locks" : {
+                                "^" : "w",
+                                "^subash" : "W"
+                        },
+                        "waitingForLock" : false,
+                        "numYields" : 0,
+                        "lockStats" : {
+                                "timeLockedMicros" : {
+                                        "r" : NumberLong(0),
+                                        "w" : NumberLong(7)
+                                },
+                                "timeAcquiringMicros" : {
+
+                                }
+                        }
+                }
+        ]
+}

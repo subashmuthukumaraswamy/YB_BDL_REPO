@@ -1,0 +1,55 @@
+MongoDB shell version: 3.2.3
+connecting to: taxodswsi
+Variety: A MongoDB Schema Analyzer
+Version 1.5.0, released 14 May 2015
+Using collection of "workspaceIndex"
+Using query of { }
+Using limit of 1
+Using maxDepth of 99
+Using sort of { "_id" : -1 }
+Using outputFormat of "ascii"
+Using persistResults of false
+Using resultsDatabase of "varietyResults"
+Using resultsCollection of "workspaceIndexKeys"
+Using resultsUser of null
+Using resultsPass of null
+Using plugins of [ ]
++----------------------------------------------------------------------------------------+
+| key                                                 | types   | occurrences | percents |
+| --------------------------------------------------- | ------- | ----------- | -------- |
+| _class                                              | String  |           1 |    100.0 |
+| _id                                                 | String  |           1 |    100.0 |
+| client                                              | Object  |           1 |    100.0 |
+| client.clientId                                     | String  |           1 |    100.0 |
+| client.dateOfBirth                                  | String  |           1 |    100.0 |
+| client.firstName                                    | String  |           1 |    100.0 |
+| client.lastName                                     | String  |           1 |    100.0 |
+| client.taxIdentificationNumber                      | String  |           1 |    100.0 |
+| enabled                                             | Boolean |           1 |    100.0 |
+| subscriptions                                       | Array   |           1 |    100.0 |
+| subscriptions.XX.subscriber                         | String  |           1 |    100.0 |
+| subscriptions.XX.type                               | String  |           1 |    100.0 |
+| taxProductType                                      | String  |           1 |    100.0 |
+| taxReturns                                          | Array   |           1 |    100.0 |
+| taxReturns.XX.entities                              | Array   |           1 |    100.0 |
+| taxReturns.XX.entities.XX.agency                    | String  |           1 |    100.0 |
+| taxReturns.XX.entities.XX.uri                       | String  |           1 |    100.0 |
+| taxReturns.XX.practice                              | Boolean |           1 |    100.0 |
+| taxReturns.XX.primary                               | Object  |           1 |    100.0 |
+| taxReturns.XX.primary.dateOfBirth                   | String  |           1 |    100.0 |
+| taxReturns.XX.primary.firstName                     | String  |           1 |    100.0 |
+| taxReturns.XX.primary.lastName                      | String  |           1 |    100.0 |
+| taxReturns.XX.primary.taxIdentificationNumber       | String  |           1 |    100.0 |
+| taxReturns.XX.returnFileId                          | String  |           1 |    100.0 |
+| taxReturns.XX.taxDataFile                           | Object  |           1 |    100.0 |
+| taxReturns.XX.taxDataFile.properties                | Object  |           1 |    100.0 |
+| taxReturns.XX.taxDataFile.properties.x-hrb-audit-id | String  |           1 |    100.0 |
+| taxReturns.XX.taxDataFile.type                      | String  |           1 |    100.0 |
+| taxReturns.XX.taxDataFile.uri                       | String  |           1 |    100.0 |
+| taxReturns.XX.taxDataFile.version                   | Object  |           1 |    100.0 |
+| taxReturns.XX.taxDataFile.version.floatApprox       | Number  |           1 |    100.0 |
+| taxReturns.XX.uri                                   | String  |           1 |    100.0 |
+| taxYear                                             | Object  |           1 |    100.0 |
+| taxYear.floatApprox                                 | Number  |           1 |    100.0 |
+| workspaceType                                       | String  |           1 |    100.0 |
++----------------------------------------------------------------------------------------+

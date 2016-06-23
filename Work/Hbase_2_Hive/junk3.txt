@@ -1,4 +1,6 @@
 031a194d6b43_u  { "id": "id", "version": "ver", "person": { "name": "subash", "age": "29" } }
+
+{"person": { "name": "subash", "age": "29" }}
  
 
 CREATE external TABLE dmy21 (id string, person struct<name:string,age:string>)
@@ -6,4 +8,10 @@ STORED BY 'org.apache.hadoop.hive.hbase.HBaseStorageHandler'
 WITH SERDEPROPERTIES (
 "hbase.table.name" = "dummy", 
 "hbase.columns.mapping" = ":key,json:text",
-"hbase.composite.key.factory" = "org.apache.hadoop.hive.hbase.CompositeHBaseKeyFactory");
+"hbase.composite.key.factory" = "org.apache.hadoop.hive.hbase.HBaseKeyFactory");
+
+CREATE EXTERNAL TABLE dmy21(id string, person struct<name:string,age:string>) 
+ROW FORMAT SERDE 'org.apache.hadoop.hive.hbase.HBaseSerDe' 
+STORED BY 'org.apache.hadoop.hive.hbase.HBaseStorageHandler' 
+WITH SERDEPROPERTIES ("hbase.columns.mapping" = ":key,:text") 
+TBLPROPERTIES ("hbase.table.name" = "dummy", "hbase.composite.key.class"="com.test.hive.TestHBaseCompositeKey")

@@ -1,0 +1,10 @@
+code read from mongo db ? and json-collection and flattern out key value
+
+tail cursor - oplog.
+
+js - file write 
+
+avro format - hbase 
+
+js - file write 
+avro format - hbase 

@@ -1,0 +1,29 @@
+db.getCollectionNames()
+
+
+db.ucht.insert({
+  "version" : "sampleMap",
+ "maps" :  {
+ "taxYear" : 2015,
+ "actor" : {
+ "t" : "unknown",
+ "name" : "upgrade"
+ }} })
+
+
+
+for (avr i =0;  i < 100000) {db.ucht.insert({ "version" :  "dcc4"  })}; 
+
+
+for(var i = 10000001; i <= 20000000 ; i++){db.ucht.insert({"_id" : i , "action" : "w dsds", " iteration no:" : i });}
+
+db.ucht.count();
+
+
+db.ucht.find().pretty()
+
+db.currentOp(true)
+
+ var a = db.currentOp();
+
+ print (a.pretty());

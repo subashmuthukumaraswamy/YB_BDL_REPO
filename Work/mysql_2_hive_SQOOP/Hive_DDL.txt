@@ -1,0 +1,71 @@
+sqoop import --connect jdbc:mysql://localhost:3306/subash --table EMPLOYEE --username root --password Bigboys@123 --hive-import --hive-table EMPLOYEE_122222 --driver com.mysql.jdbc.Driver -m1 --map-column-hive ROOSTER_IND=String
+
+
+sqoop import --connect jdbc:mysql://localhost/classicmodels --table orders --username root --password Bigboys@123 --driver com.mysql.jdbc.Driver -m1 --target-dir /user/admin/subashWork/ 
+
+
+sqoop import --connect jdbc:mysql://localhost:3306/subash --table EMPLOYEE --username root --password Bigboys@123 --driver com.mysql.jdbc.Driver -m1 --map-column-hive ROOSTER_IND=String --as-avrodatafile  --target-dir /user/admin/subashWork/EMPLOYEE_avro1  --hive-table EMPLOYEE_av1ro
+
+CREATE EXTERNAL TABLE sample_emp_Avro 
+STORED as AVRO 
+location "/user/admin/subashWork/EMPLOYEE_avro/"
+TBLPROPERTIES("avro.schema.url" = "hdfs://138.201.50.12/user/admin/subashWork/avro_schema/empl_avro.json");
+
+
+ select cast(ROOSTER_IND as unsigned), EMAIL_TXT from EMPLOYEE;
+
+  
+ --where "EMPLOYEE_ID is not null"
+ --driver com.mysql.jdbc.Driver
+  --split-by EMPLOYEE_ID 
+
+ hadoop fs -rm -r /user/root/EMPLOYEE
+ hadoop fs -get /user/admin/subashWork/EMPLOYEE_avro/part-m-00000.avro
+ hadoop fs -rm  /user/admin/subashWork/EMPLOYEE_avro/_SUCCESS
+hadoop fs -put empl_avro.json /user/admin/subashWork/
+
+
+ /opt/cloudera/parcels/CDH-5.7.0-1.cdh5.7.0.p0.45/lib/sqoop/lib
+ 
+ sudo find / -type f -name "mysql-connector*"
+	
+ CREATE TABLE IF NOT EXISTS EMPLOYEE ( 
+EMPLOYEE_ID INT,
+BIRTH_DT timestamp,
+TP_RATING int,
+GI_ID int,
+EMAIL_TXT VARCHAR(320), 
+ROOSTER_IND string,
+EMP_SVRC_LVL_NO int,
+CLIENT_RETENTION_NO DECIMAL(4,2) 
+);
+
+
+1. /opt/cloudera/parcels/CDH-5.7.0-1.cdh5.7.0.p0.45/lib/sqoop/lib
+
+
+
+
+
+
+
+
+sqoop import –-connect jdbc:sqlserver://HP\\SQLEXPRESS:1433;databaseName=BDL --username subash –P  --table employee --hive-import –m 1 --hive-table employee_sql_sr_Q1 --driver com.microsoft.sqlserver.jdbc.SQLServerDriver
+
+
+
+
+
+
+import --connect jdbc:mysql://localhost:3306/subash
+--table EMPLOYEE 
+--username root 
+--password Bigboys@123 
+--driver com.mysql.jdbc.Driver 
+-m1 
+--map-column-hive ROOSTER_IND=String 
+--as-avrodatafile  
+--target-dir /user/admin/subashWork/EMPLOYEE_avro  
+--hive-table EMPLOYEE_avro1
+
+--driver com.microsoft.jdbc.sqlserver.SQLServerDriver

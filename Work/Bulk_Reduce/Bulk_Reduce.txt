@@ -1,0 +1,9 @@
+/user/root/subashWork/hbase_bulk_load
+
+hadoop jar hbase-0.94.6-cdh4.3.0-security.jar importtsv -Dimporttsv.separator=, -Dimporttsv.bulk.output=/user/root/output-dir, -Dimporttsv.columns=HBASE_ROW_KEY,f:count wordcount hdfs://master.bigdata.labs:7180/user/root/subashWork/hbase_bulk_load/word_count.csv
+
+
+
+hbase org.apache.hadoop.hbase.mapreduce.ImportTsv -Dimporttsv.separator="," -Dimporttsv.columns="HBASE_ROW_KEY,id,f:count" "wordcount" /user/root/subashWork/hbase_bulk_load/word_count.csv
+
+hbase org.apache.hadoop.hbase.mapreduce.LoadIncrementalHFiles output wordcount

@@ -1,0 +1,22 @@
+
+/****** Script for SelectTopNRows command from SSMS  ******/
+SELECT * 
+  FROM [BDL].[dbo].[EMPLOYEE_INFO]
+  
+  
+  /****** Script for SelectTopNRows command from SSMS  ******/
+SELECT * 
+  FROM [BDL].[dbo].[EMPLOYEE_INFO]  where 
+    CONVERT(DATE, LAST_UPDATED_DATE) = CONVERT(DATE, CURRENT_TIMESTAMP); 
+	
+	
+	SELECT * 
+  FROM [BDL].[dbo].[EMPLOYEE_INFO]  where CONVERT(DATE, LAST_UPDATED_DATE) = CONVERT(DATE, CURRENT_TIMESTAMP) or deleteD_date IS NOT NULL;
+  
+  
+  
+  SELECT *
+  FROM [BDL].[dbo].[EMPLOYEE_INFO]  where (CONVERT(DATE, [LAST_UPDATED_DATE]) = CONVERT(DATE, CURRENT_TIMESTAMP) 
+  and LAST_UPDATED_DATE > DateADD(mi, -15, Current_TimeStamp) );
+  
+  

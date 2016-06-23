@@ -1,0 +1,12 @@
+ db.jsonDoc.drop()
+
+db.createCollection("jsonDoc")
+
+db.jsonDoc.insert({"_id" : "sdasdasdas-4958-48e7-9dc3-031a194d6b43_u","version" : "2d307029d34bd4cd4f9535247d1ca55f3634dcc4","events" : [
+{"taxYear" : 2015,"actor" : {"t" : "unknown","name" : "upgrade"},"practice" : false,"workspaceType" : "CONSUMER","channel" : "HRBO","client" : {"clientId" : "1dbc19b3-f535-486c-aa18-9fde011cea2f","firstName" : "Test","lastName" : "DBWODS","taxIdentificationNumber" : "238749187","dateOfBirth" : {"date" : "1990-01-01T06:00:00.000Z"}},"eid" : "01080a4c-4673-4cd1-8b78-5d605a73824b","ets" : {"date" : "2016-04-11T16:36:18.785Z"},"aid" : "05f4ee66-4958-48e7-9dc3-031a194d6b43_u","ev" : "efd54f9e71a86f1627c45c75e32c77b44e6f18a3","ep": {},"et" : "com.hrb.esg.ods.domain.tax.event.v2.TaxWorkspaceCreatedEvent"}
+ ]})
+
+db.jsonDoc.find()
+
+db.jsonDoc.count();
+
