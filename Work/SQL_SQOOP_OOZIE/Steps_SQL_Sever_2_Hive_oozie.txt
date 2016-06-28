@@ -18,9 +18,7 @@ sqoop import --connect "jdbc:sqlserver://122.178.178.42\\SQLEXPRESS:1433;databas
    
    hadoop fs -cat /user/subash/table_data/part*
 
-
-4. Login in to Hive, Change to required schema .
-use subash;
+ 
 
 5. Remove the _SUCCESS file from the data location
 hadoop fs -rm  /user/subash/table_data/_SUCCESS

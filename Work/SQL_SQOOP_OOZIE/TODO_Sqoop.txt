@@ -1,0 +1,11 @@
+1. large volume data
+2. dynamic partition
+3. automate oozie
+4. upset in hive, check feasibility - spark do it.
+5. document the changes.
+6. single flow with timestamp as input. save time in local file.
+
+
+
+spark - incre -  join . itversity.
+clz

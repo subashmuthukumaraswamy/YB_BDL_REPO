@@ -6,7 +6,7 @@ hadoop fs -rm -r /user/admin/subashWork/table_data
 2. Use the sqoop command to import the data from sql server to HDFS.  
 	Check for the IP in the machine as it might change daily
   
-sqoop import --connect "jdbc:sqlserver://122.178.31.156\\SQLEXPRESS:1433;database=BDL" --table "dbo.EMPLOYEE_INFO" --username subash --password Subash07 --driver com.microsoft.sqlserver.jdbc.SQLServerDriver -m1 --map-column-hive ROOSTER_IND=String --as-avrodatafile --target-dir /user/admin/subashWork/table_data
+sqoop import --connect "jdbc:sqlserver://122.178.120.151\\SQLEXPRESS:1433;database=BDL" --table "dbo.EMPLOYEE_INFO" --username subash --password Subash07 --driver com.microsoft.sqlserver.jdbc.SQLServerDriver -m1 --map-column-hive ROOSTER_IND=String --as-avrodatafile --target-dir /user/admin/subashWork/table_data
 
 
 -- need to check boolean and map split by primary key
@@ -66,7 +66,7 @@ TBLPROPERTIES("avro.schema.url" = "hdfs://138.201.50.12/user/admin/subashWork/ta
 2. Use the sqoop command to import the data from sql server to HDFS.  
 	Check for the IP in the machine as it might change daily
   
-sqoop import --connect "jdbc:sqlserver://122.178.31.156\\SQLEXPRESS:1433;database=BDL" --table "dbo.EMPLOYEE_INFO" --username subash --password Subash07 --driver com.microsoft.sqlserver.jdbc.SQLServerDriver -m1 --map-column-hive ROOSTER_IND=String --as-avrodatafile --target-dir /user/admin/subashWork/table_incrData --where  "(CONVERT(DATE, [LAST_UPDATED_DATE]) = CONVERT(DATE, CURRENT_TIMESTAMP) 
+sqoop import --connect "jdbc:sqlserver://122.178.120.151\\SQLEXPRESS:1433;database=BDL" --table "dbo.EMPLOYEE_INFO" --username subash --password Subash07 --driver com.microsoft.sqlserver.jdbc.SQLServerDriver -m1 --map-column-hive ROOSTER_IND=String --as-avrodatafile --target-dir /user/admin/subashWork/table_incrData --where  "(CONVERT(DATE, [LAST_UPDATED_DATE]) = CONVERT(DATE, CURRENT_TIMESTAMP) 
   and LAST_UPDATED_DATE > DateADD(mi, -15, Current_TimeStamp) )"
 
 3. Check if the data is generated with _SUCCESS file. Remove it.
@@ -76,7 +76,7 @@ sqoop import --connect "jdbc:sqlserver://122.178.31.156\\SQLEXPRESS:1433;databas
 
 4. Login in to Hive. Create a table in the schema required.  
  
-CREATE EXTERNAL TABLE employee_info_incr 
+CREATE EXTERNAL TABLE [IF NOT EXISTS] employee_info_incr 
 STORED as AVRO 
 location "/user/admin/subashWork/table_incrData/"
 TBLPROPERTIES("avro.schema.url" = "hdfs://138.201.50.12/user/admin/subashWork/table_schema/schema.avsc");
@@ -115,7 +115,7 @@ SELECT * FROM reconcile_view;
 
  
  
- -------------------------------SCHEMA_UPDATE--------------------------------------------------------------------------------
+ -------------------------------INCR_SCHEMA_UPDATE--------------------------------------------------------------------------------
 
  
  
@@ -126,7 +126,7 @@ SELECT * FROM reconcile_view;
 2. Use the sqoop command to import the data from sql server to HDFS.  
 	Check for the IP in the machine as it might change daily
   
-sqoop import --connect "jdbc:sqlserver://122.178.31.156\\SQLEXPRESS:1433;database=BDL" --table "dbo.EMPLOYEE_INFO" --username subash --password Subash07 --driver com.microsoft.sqlserver.jdbc.SQLServerDriver -m1 --map-column-hive ROOSTER_IND=String --as-avrodatafile --target-dir /user/admin/subashWork/table_incrData --where  "(CONVERT(DATE, [LAST_UPDATED_DATE]) = CONVERT(DATE, CURRENT_TIMESTAMP) 
+sqoop import --connect "jdbc:sqlserver://122.178.120.151\\SQLEXPRESS:1433;database=BDL" --table "dbo.EMPLOYEE_INFO" --username subash --password Subash07 --driver com.microsoft.sqlserver.jdbc.SQLServerDriver -m1 --map-column-hive ROOSTER_IND=String --as-avrodatafile --target-dir /user/admin/subashWork/table_incrData --where  "(CONVERT(DATE, [LAST_UPDATED_DATE]) = CONVERT(DATE, CURRENT_TIMESTAMP) 
   and LAST_UPDATED_DATE > DateADD(mi, -15, Current_TimeStamp) )"
  
  
