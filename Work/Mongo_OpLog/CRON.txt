@@ -1,12 +1,9 @@
+crontab cron-file.txt
 
-
-  crontab cron-file.txt
-  
-  * * * * *  mongod --dbpath /var/lib/mongo 
+* * * * *  mongod --dbpath /var/lib/mongo 
 
 crontab -r // delete all crons
- crontab -l  // lists all crons
- 
- fuser 27017/tcp -k
- fuser 27017/tcp
- 
+crontab -l  // lists all crons
+
+fuser 27017/tcp -k
+fuser 27017/tcp
